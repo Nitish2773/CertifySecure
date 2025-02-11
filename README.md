@@ -489,28 +489,30 @@ services:
 
 For any inquiries or further information, please contact:
 
-- **Project Lead:** [Your Name]
-- **Email:** [your.email@example.com]
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
-- **GitHub:** [Your GitHub Profile](https://github.com/yourprofile)
+- **Project Lead:** [Sri Nitish Kamisetti]
+- **Email:** [nitishkamisetti123@gmail.com]
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/sri-nitish-kamisetti/)
+- **GitHub:** [Your GitHub Profile](https://github.com/Nitish2773)
 
 ---
 
 ## 22. Conference Presentation Details
 
 ### 🎤 Presentation Title:
-"CertifySecure: Leveraging Blockchain for Tamper-Proof Student Certification"
+"CertifySecure: Blockchain-Integrated Student Certificate Validation App with Flutter"
 
 ### 🗓️ Conference:
-- **Name:** [Conference Name]
-- **Date:** [Conference Date]
-- **Location:** [Conference Location]
+- **Name:** [International Conference on Innovative Product Design and Intelligent Manufacturing Systems (ICIPDIMS 2024) Organized by AITAM College ]
+- **Date:** [04-12-2024]
+- **Location:** [Remote]
 
 ### 📄 Abstract:
-CertifySecure is a pioneering application that integrates blockchain technology, facial recognition, and Firebase authentication to create a secure and tamper-proof certification system for students. This presentation will explore the technical architecture, implementation challenges, and the future potential of blockchain in educational certification.
+In the education sector, certificates are awarded to students who complete their studies. This project mainly addresses the difficulties faced in submitting the certificates to the company for getting jobs in the public or private sectors. Students present these certificates for applying the jobs, where all these certificates need to be verified manually. The students can tamper or submit fake academic certificates. So, to avoid such problems, blockchain technology is used to establish a decentralized network for storing and validating certificates. Because blockchain is more secure, and immutable, and it provides trust between educational institutions, teachers, and recruiters. Existing methods of validating student certificates often suffer from secure authentication. There is a lack of advanced features of facial recognition for the students, and it mitigates the risk of tampering with the student credentials. This project utilizes Flutter and Firebase for mobile app development and integrates blockchain for tamper-proof certificates. and QR code generation for quick verification. The students upload the certificate in the app digitally and receive the hash after verification, and teachers will verify them and upload the hash of a digitally signed signature on the blockchain, and the recruiters can fetch the student certificate hash from the blockchain network using the student ID and document ID. If the hashes match certificate is legit otherwise tampered.
+Keywords: Certificate verification, Facial Recognition, Secure Authentication, Blockchain, Flutter, Remix IDE, MetaMask.
+
 
 ### 📈 Presentation Slides:
-- [Link to Slides](#)
+- [Link to Slides](https://docs.google.com/presentation/d/1m_h0iNQmb39QIWQBq8qdor8nygsJoeC0/edit?usp=sharing&ouid=114377696364244652161&rtpof=true&sd=true)
 
 ### 🎥 Video Recording:
 - [Link to Video](#)
