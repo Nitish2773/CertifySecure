@@ -502,12 +502,13 @@ For any inquiries or further information, please contact:
 "CertifySecure: Blockchain-Integrated Student Certificate Validation App with Flutter"
 
 ### 🗓️ Conference:
-- **Name:** [International Conference on Innovative Product Design and Intelligent Manufacturing Systems (ICIPDIMS 2024) Organized by AITAM College ]
-- **Date:** [04-12-2024]
-- **Location:** [Remote]
+- **Name:** International Conference on Innovative Product Design and Intelligent Manufacturing Systems (ICIPDIMS 2024) Organized by AITAM College 
+- **Date:** 04-12-2024
+- **Location:** Remote
 
 ### 📄 Abstract:
 In the education sector, certificates are awarded to students who complete their studies. This project mainly addresses the difficulties faced in submitting the certificates to the company for getting jobs in the public or private sectors. Students present these certificates for applying the jobs, where all these certificates need to be verified manually. The students can tamper or submit fake academic certificates. So, to avoid such problems, blockchain technology is used to establish a decentralized network for storing and validating certificates. Because blockchain is more secure, and immutable, and it provides trust between educational institutions, teachers, and recruiters. Existing methods of validating student certificates often suffer from secure authentication. There is a lack of advanced features of facial recognition for the students, and it mitigates the risk of tampering with the student credentials. This project utilizes Flutter and Firebase for mobile app development and integrates blockchain for tamper-proof certificates. and QR code generation for quick verification. The students upload the certificate in the app digitally and receive the hash after verification, and teachers will verify them and upload the hash of a digitally signed signature on the blockchain, and the recruiters can fetch the student certificate hash from the blockchain network using the student ID and document ID. If the hashes match certificate is legit otherwise tampered.
+
 Keywords: Certificate verification, Facial Recognition, Secure Authentication, Blockchain, Flutter, Remix IDE, MetaMask.
 
 
