@@ -491,8 +491,8 @@ For any inquiries or further information, please contact:
 
 - **Project Lead:** Sri Nitish Kamisetti
 - **Email:** nitishkamisetti123@gmail.com
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/sri-nitish-kamisetti/)
-- **GitHub:** [Your GitHub Profile](https://github.com/Nitish2773)
+- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/sri-nitish-kamisetti/)
+- **GitHub:** [GitHub Profile](https://github.com/Nitish2773)
 
 ---
 
