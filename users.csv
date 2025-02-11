@@ -1,0 +1,9 @@
+email,uid,password,role,name,imagePath,department,branch,course,year,semester,designation,company_type,company_location
+nitishkamisetti123@gmail.com,21551A0533,21551A0533,student,Nitish,C:\Users\Nitish\Downloads\nitish.jpg,CSE,Computer Science,BTECH,3,6,,,,
+ravi.cse@gmail.com,CSE1456,CSE1456,teacher,Ravi Kumar,C:\Users\Nitish\Downloads\teacher.jpg,CSE,Computer Science,BTECH,,,Associate Professor,,,
+tcs@gmail.com,TCS123,TCS123,company,TCS HR,C:\Users\Nitish\Downloads\blackbucks.jpeg,,,,,,,,IT Services,Hyderabad
+alice.mca@gmail.com,MCA2023001,MCA2023001,student,Alice,C:\Users\Nitish\Downloads\alice.jpg,MCA,Computer Applications,MCA,2,3,,,,
+bob.ece@gmail.com,21551A0424,21551A0424,student,Bob,C:\Users\Nitish\Downloads\bob.jpg,ECE,Electronics,BTECH,3,6,,,,
+prof.math@gmail.com,MATH789,MATH789,teacher,Sarah Jones,C:\Users\Nitish\Downloads\sarah.jpg,Mathematics,Basic Sciences,BTECH,,,Professor,,,
+infosys@gmail.com,INFO456,INFO456,company,Infosys HR,C:\Users\Nitish\Downloads\infosys.jpg,,,,,,,,IT Services,Bangalore
+charlie.degree@gmail.com,DEG2023045,DEG2023045,student,Charlie,C:\Users\Nitish\Downloads\charlie.jpg,Commerce,Business,BCom,2,4,,,,

@@ -1,0 +1,242 @@
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# Android specific
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+**/android/app/debug.keystore
+**/android/app/release.keystore
+**/android/app/google-services.json
+**/android/app/src/main/res/values/secrets.xml
+
+# iOS specific
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/GoogleService-Info.plist
+
+# Firebase specific
+**/firebase-admin-server/node_modules/
+**/firebase-admin-server/.env
+**/firebase-admin-server/serviceAccountKey.json
+**/lib/firebase_options.dart
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# VS Code specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Android Studio/IntelliJ specific
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Project specific sensitive files
+**/lib/CertifySecure/utils/constants.dart  # API keys and endpoints
+**/lib/CertifySecure/Services/blockchain_service.dart  # Contract addresses and private keys
+**/import_users.csv  # User data
+**/certificates/  # Certificate files
+**/*.env
+**/*.key
+**/*.pem
+**/secrets.json
+**/config.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+
+# Test coverage
+/coverage/
+.test_coverage.dart
+coverage_badge.svg
+
+# Web related
+**/web/firebase-config.js
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Firebase Configuration Files
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+.firebaserc
+firebase.json
+**/firebase-debug.log
+**/firestore-debug.log
+**/ui-debug.log
+**/.firebase/
+**/serviceAccountKey.json
+**/firebase-adminsdk.json
+**/firebase-credentials.json
+
+# Firebase Local Emulator Suite
+**/firebase-export-*
+**/.runtimeconfig.json
+**/database-debug.log
+**/pubsub-debug.log
+**/functions-debug.log
+**/hosting.*.cache
+**/.emulators/
+
+# Firebase Admin SDK
+**/node_modules/
+**/serviceAccount*.json
+**/*-firebase-adminsdk-*.json
+**/firebase-admin*.json
+
+# Firebase Environment Variables
+**/.env
+**/.env.local
+**/.env.development
+**/.env.test
+**/.env.production
+**/env.js
+**/env.json
+**/config.js
+**/config.json
+
+# Firebase Configuration Files in Different Locations
+**/lib/firebase/firebase_config.dart
+**/lib/config/firebase_config.dart
+**/lib/utils/firebase_config.dart
+**/src/firebase/config.js
+**/web/firebase-config.js
+**/public/firebase-config.js
+
+# Firebase Local Storage
+**/.firebase-data/
+**/firebase-data/
+
+# Firebase Functions
+**/functions/node_modules/
+**/functions/.env
+**/functions/.runtimeconfig.json
+**/functions/lib/
+**/functions/coverage/
+
+# Firebase Hosting
+**/.firebase/hosting.*
+**/public/404.html
+**/public/firebase-messaging-sw.js
+
+# Firebase Analytics
+**/google-analytics.json
+**/analytics-debug.log
+
+# Firebase Performance
+**/performance-debug.log
+
+# Firebase Crashlytics
+**/crashlytics-build.properties
+**/com_crashlytics_export_strings.xml
+**/crashlytics-integration.properties
+**/crashlytics.properties
+
+# Firebase Cloud Messaging
+**/fcm-token.json
+**/messaging-token.json
+
+# Firebase App Distribution
+**/app-distribution.json
+**/distribution-config.json
+
+# Firebase Remote Config
+**/remote_config_defaults.json
+**/remote-config-defaults.json
+
+# Firebase Dynamic Links
+**/dynamic-links.json
+
+# Firebase Authentication
+**/auth-debug.log
+**/authentication-config.json
+
+# Flutter Web Firebase
+**/web/firebase-messaging-sw.js
+**/web/flutter_service_worker.js
+
+# Local Firebase Configurations
+**/local-firebase-config.json
+**/dev-firebase-config.json
+**/prod-firebase-config.json
+**/staging-firebase-config.json
+
+# Firebase CLI Token
+.firebase-token
+.firebase-token.json
+firebase-token.json
+
+# Firebase Cache
+.firebase-cache/
+.firebase/*.cache
+
+# Firebase Backup Files
+**/*.firebase.backup
+**/*.firestore.backup
+
+# Flutter Firebase Plugin Generated Files
+**/generated_plugin_registrant.dart
+**/GeneratedPluginRegistrant.*

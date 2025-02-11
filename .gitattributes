@@ -1,0 +1,55 @@
+certify_secure_app google-services.json users.csv text=auto
+google-services.json users.csv text eol=lf
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Force the following filetypes to have unix eols, so Windows does not break them
+*.* text eol=lf
+
+# These files are binary and should be left untouched
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.flv binary
+*.fla binary
+*.swf binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.ttf binary
+*.eot binary
+*.woff binary
+*.pyc binary
+*.pdf binary
+*.ez binary
+*.bz2 binary
+*.swp binary
+*.webp binary
+
+# Specific file types
+*.json text eol=lf
+*.lock text eol=lf
+*.metadata text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.dart text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.gradle text eol=lf
+*.properties text eol=lf
+*.xml text eol=lf
+*.txt text eol=lf
+
+# Specific files
+pubspec.lock text eol=lf
+package-lock.json text eol=lf
+package.json text eol=lf
+.metadata text eol=lf
