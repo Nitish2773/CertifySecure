@@ -327,7 +327,7 @@ company@example.com,UID789,pass789,company,Company HR,,,,,,
 
 ### 🤖 Face Recognition Service:
 - **Implementation:** A separate Flask-based microservice using OpenCV.
-- **Repository Link:** [Face Recognition Service Repository](#https://github.com/Nitish2773/face-recognition-app)
+- **Repository Link:** [Face Recognition Service Repository](https://github.com/Nitish2773/face-recognition-app)
 
 ### 🔒 Purpose:
 - **Security:** Ensures that only the genuine student can log in and upload certificates, preventing impersonation.
