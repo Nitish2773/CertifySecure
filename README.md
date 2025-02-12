@@ -132,19 +132,70 @@ CertifySecure is an innovative application designed to provide a secure and tamp
 
 ---
 
-### 6. Major Screens & UI Implementations
+### 6. Major Screens & UI Implementations  
 
-**📱 Feature Screenshots (Placeholder)**
+**📱 Feature Screenshots**  
 
-- **Login Screen:** Offers email/password login and face recognition options.
-  - Files: `login.dart`, `face_recognition_screen.dart`
-  - *(Placeholder for actual image)*
+- **🚀 Splash Screen & Role Selection:**  
+  - **Description:** Initial welcome screen with app branding and user role selection.  
+  - **Files:** `splash_screen.dart`, `role_selection_screen.dart`  
+  - ![Splash Screen](assets/images/screenshots/Splash_screen.jpg)  
+  - ![Role Selection Screen](assets/images/screenshots/role_selection.jpg)  
 
-- **Student Dashboard:** Displays certificate statuses, upload options, and profile details.
-  - Files: `student_dashboard.dart`, `home_screen.dart`, `profile_screen.dart`
-  - *(Placeholder for actual image)*
+- **🔑 Login Screens (All Roles):**  
+  - **Description:** Different login interfaces for students, teachers, and recruiters.  
+  - **Files:** `login.dart`, `face_recognition_screen.dart`, `teacher_login.dart`, `company_login.dart`  
+  - ![Student Login Screen](assets/images/screenshots/student_login.jpg)  
+  - ![Teacher Login Screen](assets/images/screenshots/teacher_login.jpg)  
+  - ![Company Login Screen](assets/images/screenshots/company_login.jpg)  
+  - ![Face Authentication Step 1](assets/images/screenshots/face-auth-1.jpg)  
+  - ![Face Authentication Step 2](assets/images/screenshots/face-auth-2.jpg)  
 
-*(Space for screenshots of Firebase console, Remix IDE, MetaMask, Infura, etc.)*
+- **🏠 Student Dashboard:**  
+  - **Description:** Displays certificate statuses, upload options, and profile details for students.  
+  - **Files:** `student_dashboard.dart`, `home_screen.dart`, `profile_screen.dart`  
+  - ![Student Home Screen](assets/images/screenshots/student_home_screen.jpg)  
+  - ![Student Profile Screen](assets/images/screenshots/student_profile_screen.jpg)  
+
+- **📤 Certificate Upload Screen:**  
+  - **Description:** Allows students to upload their certificates with an option to generate a SHA-256 hash.  
+  - **Files:** `upload_certificate_screen.dart`  
+  - ![Student Certificate Upload Screen](assets/images/screenshots/student_upload_cert_screen.jpg)  
+
+- **👀 View Certificates Screen:**  
+  - **Description:** Enables students to view all their submitted certificates along with verification status.  
+  - **Files:** `view_certificates_screen.dart`  
+  - ![Student Certificate View Screen](assets/images/screenshots/student_view_cert_screen.jpg)  
+
+- **📊 Teacher Dashboard:**  
+  - **Description:** Provides teachers with tools to verify certificates, view pending verifications, and access their profile.  
+  - **Files:** `teacher_dashboard.dart`, `teacher_home_screen.dart`, `teacher_profile_screen.dart`  
+  - ![Teacher Home Screen](assets/images/screenshots/teacher_home_screen.jpg)  
+  - ![Teacher Home Screen](assets/images/screenshots/teacher_home_screen-2.jpg)  
+  - ![Teacher Profile Screen](assets/images/screenshots/teacher_profile_screen.jpg)  
+
+- **⏳ Teacher Pending Certificates Screen:**  
+  - **Description:** Lists certificates pending verification for teacher review.  
+  - **Files:** `pending_certificates_screen.dart`  
+  - ![Teacher Pending Certificate Screen](assets/images/screenshots/teacher_pending_cert_screen.jpg)  
+  - ![Teacher Pending Certificate Screen](assets/images/screenshots/teacher_pending_cert_screen-2.jpg)  
+
+- **✅ Verified Certificates Screen (Teacher):**  
+  - **Description:** Displays certificates that have already been verified by teachers.  
+  - **Files:** `verified_certificates_screen.dart`  
+  - ![Teacher Verify Certificate Screen](assets/images/screenshots/teacher_verify_cert_screen.jpg)  
+  - ![Teacher Verify Certificate Screen](assets/images/screenshots/teacher_verify_cert_screen-2.jpg)  
+
+- **🏢 Company/Recruiter Dashboard:**  
+  - **Description:** Enables recruiters to scan QR codes and validate certificate authenticity.  
+  - **Files:** (Located under the `company/` folder)  
+  - ![Company Home Screen](assets/images/screenshots/company_home_screen.jpg)  
+  - ![Company Verify Certificate Screen](assets/images/screenshots/company_verify_cert_screen.jpg)  
+  - ![Company Blocked Certificate - Not Verified](assets/images/screenshots/company_block-not_verified_screen.jpg)  
+
+- **🖥️ Additional Screens & Console Views:**  
+  - **Firebase Console, Remix IDE, MetaMask, and Infura Views:**  
+    - *(Place placeholders or actual screenshots here to illustrate backend setups and blockchain interactions.)*  
 
 ---
 
