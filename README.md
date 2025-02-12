@@ -46,239 +46,199 @@
 
 ---
 
-### 1. Project Overview
+# 🚀 **1. Project Overview**  
 
-CertifySecure is an innovative application designed to provide a secure and tamper-proof certification system for students. By integrating blockchain technology, facial recognition, and Firebase authentication, the app ensures that certificates are securely stored, verified, and authenticated through a decentralized and immutable process.
+**CertifySecure** is an innovative application that provides a **tamper-proof certification system** for students, ensuring security and authenticity through **blockchain technology**, **facial recognition**, and **Firebase authentication**.  
 
-**Key Features:**
-- 🔐 **Blockchain-Powered Certificate Storage:** Certificate hashes are stored immutably on the Ethereum blockchain.
-- 🤖 **Facial Recognition for Secure Login:** A dedicated Flask-based service handles biometric authentication.
-- ☁️ **Secure File Storage on Firebase:** Original certificates are securely stored in the cloud.
-- 🔄 **Real-Time Verification for Recruiters:** Instant feedback on certificate authenticity.
-- 🌐 **Multi-Platform Support:** Runs on Android, iOS, Web, and Desktop.
-- 📊 **CSV-Based Bulk Registration:** Facilitates mass user onboarding.
-
----
-
-### 2. VS Code & Android Studio Setup
-
-**📌 VS Code Configuration**
-
-- **Install Plugins:**
-  - Flutter & Dart
-  - Solidity
-
-- **Settings:**
-  Add the following to `settings.json` to ensure consistent formatting and quick access to Flutter dev tools:
-
-  ```json
-  {
-      "editor.formatOnSave": true,
-      "dart.previewFlutterUiGuides": true,
-      "dart.openDevTools": "flutter"
-  }
-  ```
-
-**📌 Android Studio Configuration**
-
-- **Install Plugins:**
-  - Flutter & Dart SDKs
-
-- **Enable Developer Mode & USB Debugging:**
-  - On a physical device, enable developer mode and USB debugging.
-
-- **Emulator Setup:**
-  - Create an emulator via AVD Manager with appropriate API level and specs.
+### 🔥 **Key Features:**  
+✅ **🔐 Blockchain-Powered Certificate Storage:** Immutable certificate hashes stored on Ethereum blockchain.  
+✅ **🤖 Facial Recognition for Secure Login:** Flask-based biometric authentication for added security.  
+✅ **☁️ Secure File Storage on Firebase:** Ensures original certificates are safely stored in the cloud.  
+✅ **🔄 Real-Time Verification for Recruiters:** Instant validation of certificate authenticity.  
+✅ **🌐 Multi-Platform Support:** Runs seamlessly on **Android, iOS, Web, and Desktop**.  
+✅ **📊 CSV-Based Bulk Registration:** Enables fast mass user onboarding.  
 
 ---
 
-### 3. Frontend: Flutter & Dart Configuration
+# 🛠️ **2. VS Code & Android Studio Setup**  
 
-**🔧 Install Flutter SDK (>=3.4.3)**
-- Follow the official Flutter installation guide for your operating system.
+### **📌 VS Code Configuration**  
+**🔹 Essential Plugins:**  
+📌 **Flutter & Dart** – For Flutter app development.  
+📌 **Solidity** – For smart contract development.  
 
-**🔍 Run Commands:**
-- Ensure your Flutter environment is properly set up by running:
+**🔹 Recommended Settings:** *(Modify `settings.json` to ensure a smooth dev experience.)*  
 
-  ```bash
-  flutter doctor
-  flutter pub get
-  flutter run
-  ```
-
-**Why Dart?**
-- **Performance:** Compiles to native code for fast execution.
-- **Productivity:** Hot reload feature for quick iterations.
-- **Cross-Platform Support:** Single codebase for Android, iOS, Web, and Desktop.
+```json
+{
+    "editor.formatOnSave": true,
+    "dart.previewFlutterUiGuides": true,
+    "dart.openDevTools": "flutter"
+}
+```
 
 ---
 
-### 4. Android & iOS Setup
+### **📌 Android Studio Configuration**  
+**🔹 Required Plugins:**  
+📌 **Flutter & Dart SDKs** – Enable Flutter development.  
 
-**Android:**
-- 🛠️ **Configure `android/app/build.gradle`:** Set up signing, version codes, and permissions.
-
-**iOS:**
-- 💻 **Run `pod install` in the `ios/` directory.**
-- 📝 **Configure Xcode with `GoogleService-Info.plist`.**
-- 📱 **Ensure devices/emulators are connected and properly configured.**
+**🔹 Device Setup:**  
+📌 **Enable Developer Mode & USB Debugging:** On a physical Android device, enable **USB debugging** via Developer Options.  
+📌 **Set Up Emulator:** Open **AVD Manager** → Create a virtual device → Choose appropriate API level & specs.  
 
 ---
 
-### 5. Pubspec.yaml Dependencies
+# 🎨 **3. Frontend: Flutter & Dart Configuration**  
 
-**Authentication & Firebase:**
-- `firebase_core`, `firebase_auth`: Manages Firebase initialization and authentication.
+### 🔧 **Install Flutter SDK (>=3.4.3)**  
+Follow the **[official Flutter installation guide](https://flutter.dev/docs/get-started/install)** based on your OS.  
 
-**Security & Encryption:**
-- `crypto`, `encrypt`, `pointycastle`: Provides SHA-256 hashing and AES encryption functionalities.
+### 🔍 **Run Essential Commands**  
+Before starting, verify your setup:  
 
-**Blockchain Integration:**
-- `web3dart`, `walletconnect_dart`: Facilitates Ethereum blockchain interactions and wallet connections.
+```bash
+flutter doctor
+flutter pub get
+flutter run
+```
 
-**Face Recognition & Camera:**
-- `google_mlkit_face_detection`, `camera`: Handles facial detection and image capture.
+### ⚡ **Why Dart?**  
+✅ **Blazing-Fast Performance:** Compiles to native code for smooth execution.  
+✅ **Productivity Boost:** Hot reload for instant UI updates.  
+✅ **Cross-Platform Support:** Single codebase for **Android, iOS, Web, and Desktop**.  
 
-**Networking & File Handling:**
-- `dio`, `http`, `file_picker`: Used for API requests and file uploads.
-
-**UI Enhancements:**
-- `animate_do`, `cupertino_icons`: Enhances animations and icon usage.
-
----
-### 6. Major Screens & UI Implementations  
-
-**📱 Feature Screenshots**  
-
-- **🚀 Splash Screen & Role Selection:**  
-  - **Description:** Initial welcome screen with app branding and user role selection.  
-  - **Files:** `splash_screen.dart`, `role_selection_screen.dart`  
-  <br><br>
-  <div align="center">
-    <table>
-      <tr>
-        <td><img src="assets/screenshots/Splash_screen.jpg" alt="Splash Screen" width="300" height="500"></td>
-        <td><img src="assets/screenshots/role_selection.jpg" alt="Role Selection Screen" width="300" height="500"></td>
-      </tr>
-    </table>
-  </div>
-  
-  <br><br>
-
-- **🔑 Login Screens (All Roles):**  
-  - **Description:** Different login interfaces for students, teachers, and recruiters.  
-  - **Files:** `login.dart`, `face_recognition_screen.dart`, `teacher_login.dart`, `company_login.dart`  
-  <br><br>
-  <div align="center">
-    <table>
-      <tr>
-        <td><img src="assets/screenshots/student_login.jpg" alt="Student Login Screen" width="300" height="500"></td>
-        <td><img src="assets/screenshots/teacher_login.jpg" alt="Teacher Login Screen" width="300" height="500"></td>
-      </tr>
-      <tr>
-        <td><img src="assets/screenshots/company_login.jpg" alt="Company Login Screen" width="300" height="500"></td>
-        <td><img src="assets\screenshots\face_auth-1.png" alt="Face Authentication Step 1" width="300" height="500"></td>
-      </tr>
-      <tr>
-        <td><img src="assets\screenshots\face-auth-2.png" alt="Face Authentication Step 2" width="300" height="500"></td>
-        <td></td>
-      </tr>
-    </table>
-  </div>
-
-  <br><br>
-
-- **🏠 Student Dashboard:**  
-  - **Description:** Displays certificate statuses, upload options, and profile details for students.  
-  - **Files:** `student_dashboard.dart`, `home_screen.dart`, `profile_screen.dart`  
-  <br><br>
-  <div align="center">
-    <table>
-      <tr>
-        <td><img src="assets/screenshots/student_home_screen.jpg" alt="Student Home Screen" width="300" ></td>
-        <td><img src="assets/screenshots/student_profile_screen.jpg" alt="Student Profile Screen" width="300" ></td>
-      </tr>
-    </table>
-  </div>
-
-  <br><br>
-
-- **📤 Certificate Upload Screen:**  
-  - **Description:** Allows students to upload their certificates with an option to generate a SHA-256 hash.  
-  - **Files:** `upload_certificate_screen.dart`  
-  <br><br>
-  <div align="center">
-    <table>
-      <tr>
-        <td><img src="assets/screenshots/student_upload_cert_screen.jpg" alt="Student Certificate Upload Screen" width="300" ></td>
-      </tr>
-    </table>
-  </div>
-
-  <br><br>
-
-- **👀 View Certificates Screen:**  
-  - **Description:** Enables students to view all their submitted certificates along with verification status.  
-  - **Files:** `view_certificates_screen.dart`  
-  <br><br>
-  <div align="center">
-    <table>
-      <tr>
-        <td><img src="assets/screenshots/student_view_cert_screen.jpg" alt="Student Certificate View Screen" width="300" height="600"></td>
-      </tr>
-    </table>
-  </div>
-
-  <br><br>
-
-- **📊 Teacher Dashboard:**  
-  - **Description:** Provides teachers with tools to verify certificates, view pending verifications, and access their profile.  
-  - **Files:** `teacher_dashboard.dart`, `teacher_home_screen.dart`, `teacher_profile_screen.dart`  
-  <br><br>
-  <div align="center">
-    <table>
-      <tr>
-        <td><img src="assets/screenshots/teacher_home_screen.jpg" alt="Teacher Home Screen" width="300" ></td>
-        <td><img src="assets/screenshots/teacher_home_screen-2.jpg" alt="Teacher Home Screen 2" width="300" height="500"></td>
-      </tr>
-      <tr>
-        <td><img src="assets/screenshots/teacher_profile_screen.jpg" alt="Teacher Profile Screen" width="300" height="500"></td>
-        <td></td>
-      </tr>
-    </table>
-  </div>
-
-  <br><br>
-
-- **🏢 Company/Recruiter Dashboard:**  
-  - **Description:** Enables recruiters to scan QR codes and validate certificate authenticity.  
-  - **Files:** (Located under the `company/` folder)  
-  <br><br>
-  <div align="center">
-    <table>
-      <tr>
-        <td><img src="assets/screenshots/company_home_screen.jpg" alt="Company Home Screen" width="300" ></td>
-        <td><img src="assets/screenshots/company_verify_cert_screen.jpg" alt="Company Verify Certificate Screen" width="300" ></td>
-      </tr>
-      <tr>
-        <td><img src="assets/screenshots/company_block-not_verified_screen.jpg" alt="Company Blocked Certificate - Not Verified" width="300" height="500"></td>
-        <td></td>
-      </tr>
-    </table>
-  </div>
-
-  <br><br>
 
 ---
+## **4. Android & iOS Setup**
 
-### 7. Blockchain & SHA-256 Hashing
+### **📱 Android**
+- 🛠️ **Configure `android/app/build.gradle`**: Set up signing keys, version codes, and required permissions.
+- 🚀 **Enable MultiDex**: If needed, enable MultiDex for compatibility with numerous dependencies.
 
-**🔒 SHA-256 Hash Generation:**
-Certificates are processed to generate a SHA-256 hash, creating a unique digital fingerprint.
+### **🍏 iOS**
+- 💻 **Run `pod install` in the `ios/` directory** to install CocoaPods dependencies.
+- 📝 **Configure Xcode with `GoogleService-Info.plist`** for Firebase integration.
+- 📱 **Ensure devices/emulators are connected and properly configured** before running the app.
 
-**Example:**
+---
+## **5. `pubspec.yaml` Dependencies**
+
+### **🔥 Authentication & Firebase**
+- `firebase_core`, `firebase_auth` → Handles Firebase initialization & user authentication.
+
+### **🔐 Security & Encryption**
+- `crypto`, `encrypt`, `pointycastle` → Provides SHA-256 hashing & AES encryption functionalities.
+
+### **⛓️ Blockchain Integration**
+- `web3dart`, `walletconnect_dart` → Enables Ethereum blockchain interactions & wallet connections.
+
+### **🤖 Face Recognition & Camera**
+- `google_mlkit_face_detection`, `camera` → Manages face detection & image capture.
+
+### **🌐 Networking & File Handling**
+- `dio`, `http`, `file_picker` → Handles API requests & file uploads.
+
+### **🎨 UI Enhancements**
+- `animate_do`, `cupertino_icons` → Enhances animations & iconography.
+
+---
+## **6. Major Screens & UI Implementations**
+
+### **🚀 Splash Screen & Role Selection**
+- **Description:** Initial welcome screen displaying app branding & user role selection.
+- **Files:** `splash_screen.dart`, `role_selection_screen.dart`
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="assets/screenshots/Splash_screen.jpg" width="300"></td>
+      <td><img src="assets/screenshots/role_selection.jpg" width="300"></td>
+    </tr>
+  </table>
+</div>
+
+### **🔑 Login Screens (All Roles)**
+- **Description:** Dedicated login interfaces for students, teachers, and recruiters.
+- **Files:** `login.dart`, `face_recognition_screen.dart`, `teacher_login.dart`, `company_login.dart`
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="assets/screenshots/student_login.jpg" width="300"></td>
+      <td><img src="assets/screenshots/teacher_login.jpg" width="300"></td>
+    </tr>
+    <tr>
+      <td><img src="assets/screenshots/company_login.jpg" width="300"></td>
+      <td><img src="assets/screenshots/face_auth-1.png" width="300"></td>
+    </tr>
+  </table>
+</div>
+
+### **🏠 Student Dashboard**
+- **Description:** Displays certificate statuses, upload options, and student profile details.
+- **Files:** `student_dashboard.dart`, `home_screen.dart`, `profile_screen.dart`
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="assets/screenshots/student_home_screen.jpg" width="300"></td>
+      <td><img src="assets/screenshots/student_profile_screen.jpg" width="300"></td>
+    </tr>
+  </table>
+</div>
+
+### **📤 Certificate Upload & View Screens**
+- **Description:** Enables students to upload & view their certificates with verification status.
+- **Files:** `upload_certificate_screen.dart`, `view_certificates_screen.dart`
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="assets/screenshots/student_upload_cert_screen.jpg" width="300"></td>
+      <td><img src="assets/screenshots/student_view_cert_screen.jpg" width="300"></td>
+    </tr>
+  </table>
+</div>
+
+### **📊 Teacher Dashboard**
+- **Description:** Allows teachers to verify certificates and manage pending verifications.
+- **Files:** `teacher_dashboard.dart`, `teacher_home_screen.dart`, `teacher_profile_screen.dart`
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="assets/screenshots/teacher_home_screen.jpg" width="300"></td>
+      <td><img src="assets/screenshots/teacher_home_screen-2.jpg" width="300"></td>
+    </tr>
+  </table>
+</div>
+
+### **🏢 Company/Recruiter Dashboard**
+- **Description:** Enables recruiters to scan QR codes and verify certificates.
+- **Files:** Located under the `company/` folder.
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="assets/screenshots/company_home_screen.jpg" width="300"></td>
+      <td><img src="assets/screenshots/company_verify_cert_screen.jpg" width="300"></td>
+    </tr>
+  </table>
+</div>
+
+---
+## **7. Blockchain & SHA-256 Hashing**
+
+### **🔒 SHA-256 Hash Generation**
+Certificates are hashed to generate a unique SHA-256 fingerprint.
 
 ```dart
+```
+import 'dart:io';
+import 'package:crypto/crypto.dart';
+import 'dart:convert';
+
 class CertificateHasher {
   static Future<String> generateHash(File certificate) async {
     final bytes = await certificate.readAsBytes();
@@ -287,11 +247,10 @@ class CertificateHasher {
   }
 }
 ```
+```
 
-**⛓️ Blockchain Storage:**
-The generated hash is stored on the Ethereum blockchain using a smart contract.
-
-**Solidity Example:**
+### **⛓️ Blockchain Storage (Smart Contract in Solidity)**
+The certificate hash is stored on the Ethereum blockchain for authenticity verification.
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -316,153 +275,184 @@ contract CertificateRegistry {
 }
 ```
 
-**📡 Blockchain Service:**
-The `blockchain_service.dart` file uses `web3dart` to interact with the deployed smart contract, sending transactions via Infura and signing with MetaMask.
+### **📡 Blockchain Service (Dart Integration)**
+Handles communication with the Ethereum blockchain via `web3dart`.
 
+```dart
+```
+import 'package:web3dart/web3dart.dart';
+import 'package:http/http.dart';
+
+class BlockchainService {
+  final String rpcUrl = "https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID";
+  late Web3Client client;
+
+  BlockchainService() {
+    client = Web3Client(rpcUrl, Client());
+  }
+
+  Future<String> getCertificateHash(String studentId) async {
+    // Call smart contract function
+    final result = await client.call(
+      contract: myContract,
+      function: getHashFunction,
+      params: [studentId],
+    );
+    return result.first.toString();
+  }
+}
+```
+```
 ---
-
 ### 8. Blockchain Technologies
 
 **🛠️ Remix IDE:**
-- **Purpose:** A browser-based IDE for developing, deploying, and testing smart contracts written in Solidity.
-- **Usage:** Used to write and deploy the `certificate_registry.sol` smart contract.
+- 🚀 **Purpose:** A browser-based IDE for developing, deploying, and testing smart contracts written in Solidity.
+- 🔧 **Usage:** Utilized for writing and deploying the `certificate_registry.sol` smart contract.
 
 **🦊 MetaMask:**
-- **Purpose:** A browser extension and mobile app that allows users to interact with the Ethereum blockchain.
-- **Usage:** Used for managing Ethereum accounts and signing transactions.
+- 🌍 **Purpose:** A browser extension and mobile app that enables users to interact with the Ethereum blockchain securely.
+- 🔑 **Usage:** Manages Ethereum accounts and facilitates transaction signing.
 
 **🌐 Sepolia Test Network:**
-- **Purpose:** A test network for Ethereum that allows developers to test smart contracts without using real Ether.
-- **Usage:** Used for deploying and testing the smart contract in a safe environment.
+- ⚙️ **Purpose:** A test network for Ethereum, allowing developers to test smart contracts without using real Ether.
+- 🔬 **Usage:** Provides a safe environment for smart contract deployment and testing.
 
 **🔗 Infura:**
-- **Purpose:** Provides scalable Ethereum infrastructure and APIs.
-- **Usage:** Used to connect the app to the Ethereum network, enabling blockchain interactions.
+- 📡 **Purpose:** Offers scalable Ethereum infrastructure and APIs.
+- ⚡ **Usage:** Connects the app to the Ethereum network for seamless blockchain interactions.
 
 **💻 Solidity:**
-- **Purpose:** A programming language for writing smart contracts on Ethereum.
-- **Usage:** Used to write the smart contract that stores certificate hashes.
+- 📝 **Purpose:** A programming language used to write Ethereum smart contracts.
+- 🔨 **Usage:** Develops the smart contract responsible for storing certificate hashes.
 
 ---
 
 ### 9. Immutable Data & Blockchain Verification
 
 **🔒 Immutable Data:**
-Once a certificate hash is stored on the blockchain, it cannot be changed or deleted, ensuring data integrity.
+- Once a certificate hash is stored on the blockchain, it **cannot** be modified or deleted, ensuring data integrity and security.
 
 **✅ Verification Process:**
-- Teachers verify certificates by generating a fresh hash and comparing it with the blockchain-stored hash. A mismatch indicates tampering.
+- **Step 1:** Teachers verify certificates by generating a fresh SHA-256 hash of the uploaded document.
+- **Step 2:** The generated hash is compared against the hash stored on the blockchain.
+- **Step 3:** If the hashes match, the certificate is verified; otherwise, tampering is detected.
 
 ---
 
 ### 10. Firebase Backend Setup
 
 **🔥 Firestore Database:**
-- **Purpose:** Stores user data, certificate metadata, and verification statuses.
-- **Collections:** `users`, `certificates`
+- 📂 **Purpose:** Stores user data, certificate metadata, and verification statuses.
+- 📌 **Collections:** `users`, `certificates`
 
 **☁️ Firebase Storage:**
-- **Purpose:** Secures the original certificate files.
+- 🏛️ **Purpose:** Securely stores original certificate files.
 
 **🔑 Firebase Authentication:**
-- **Purpose:** Manages user sign-up, login, and authentication.
+- 🏆 **Purpose:** Manages user sign-up, login, and authentication through various methods.
 
 **🚫 Firebase App Check:**
-- **Purpose:** Ensures that only verified app instances can access backend resources.
+- 🛡️ **Purpose:** Ensures only verified app instances can access backend resources, enhancing security.
 
 ---
 
 ### 11. CSV-based User Registration
 
 **📄 Bulk Registration:**
-Users are imported in bulk using a CSV file, streamlining the onboarding process.
+- Users can be onboarded in bulk using a CSV file, streamlining the registration process.
 
-**🛠️ Script:**
-The `import_users.js` file in the `firebase-admin-server/` directory reads the CSV, validates data, and registers users in Firebase Authentication and Firestore.
+**🛠️ Automation Script:**
+- 📜 **Script:** The `import_users.js` file in `firebase-admin-server/` reads the CSV, validates data, and registers users in Firebase Authentication and Firestore.
 
-**Example CSV:**
+**📊 Example CSV Format:**
 
 ```csv
-email,uid,password,role,name,imagePath,department,branch,course,year,semester
-student@example.com,UID123,pass123,student,Student Name,/path/to/image.jpg,CSE,Computer Science,BTECH,3,6
-teacher@example.com,UID456,pass456,teacher,Teacher Name,,,,,,
-company@example.com,UID789,pass789,company,Company HR,,,,,,
+type,email,uid,password,role,name,imagePath,department,branch,course,year,semester
+student,student@example.com,UID123,pass123,student,Student Name,/path/to/image.jpg,CSE,Computer Science,BTECH,3,6
+teacher,teacher@example.com,UID456,pass456,teacher,Teacher Name,,,,,,
+company,company@example.com,UID789,pass789,company,Company HR,,,,,,
 ```
 
-**Process:**
-- **Read CSV File:** The script reads the CSV file containing user details.
-- **Validate Data:** Ensures all required fields are present and correctly formatted.
-- **Register Users:** Adds users to Firebase Authentication and Firestore.
+**🚀 Registration Process:**
+1️⃣ **Read CSV File:** Extract user details from the uploaded CSV.
+2️⃣ **Validate Data:** Ensure all required fields are present and correctly formatted.
+3️⃣ **Register Users:** Add users to Firebase Authentication and Firestore.
 
 ---
 
 ### 12. Firebase Authentication & Storage
 
 **🔑 Firebase Authentication:**
-- **Supports:** Email/Password, Google Sign-In, and biometric login (facial recognition).
-- **Security Rules:** Implemented to ensure that only authorized users can access or modify data.
+- ✅ **Supports:** Email/Password, Google Sign-In, and biometric login (facial recognition).
+- 🔒 **Security Rules:** Ensure only authorized users can access or modify data.
 
 **🗄️ Firestore Database:**
-- **Purpose:** Stores user profiles, certificate data, and verification logs.
+- 📁 **Purpose:** Stores user profiles, certificate data, and verification logs securely.
 
 **☁️ Firebase Storage:**
-- **Purpose:** Stores original certificate files securely.
+- 🔐 **Purpose:** Provides secure storage for original certificate files, preventing unauthorized access.
 
 **🚫 Firebase App Check:**
-- **Purpose:** Ensures that only verified app instances can access backend resources.
+- 🔍 **Purpose:** Ensures only verified app instances can interact with backend resources, minimizing security risks.
+
+---
+# CertifySecure: Blockchain-Powered Certificate Verification System
+
+## 📌 13. Complete App Workflow
+
+### 🎓 Student Registration & Authentication
+- **Process:** Students register and log in using Firebase Authentication.
+- **Security:** Facial recognition ensures secure authentication and prevents impersonation.
+
+### 📤 Certificate Upload & Hashing
+- **Process:** Students upload certificates.
+- **Hashing:** A SHA-256 hash is generated for each certificate file.
+
+### ⛓️ Blockchain Storage
+- **Process:** The certificate hash is stored immutably on the Ethereum blockchain via a smart contract.
+
+### 👩‍🏫 Teacher Verification
+- **Process:** Teachers review and verify certificates.
+- **Update:** Verified certificates are recorded in Firestore for easy access.
 
 ---
 
-### 13. Complete App Workflow
+## 🔍 14. Verification & Tamper-Proof Certification
 
-**🤩 Student Registration & Login:**
-- **Process:** Students register and log in using Firebase Authentication; facial recognition is used as an additional security layer.
+### 🔒 Tamper-Proof Mechanism
+- **Immutable Data:** Blockchain ensures that once stored, data cannot be modified.
+- **Tampering Detection:** Any alteration in a certificate results in a different hash, flagging potential fraud.
 
-**📤 Certificate Upload:**
-- **Process:** Students upload certificates, and a SHA-256 hash is generated from each file.
-
-**⛓️ Blockchain Storage:**
-- **Process:** The certificate hash is stored on the Ethereum blockchain via a smart contract.
-
-**👩‍🏫 Teacher Verification:**
-- **Process:** Teachers review and verify certificates; verified certificates update Firestore.
+### 👩‍🏫 Teacher’s Role
+- **Authenticity Check:** Teachers verify certificates before approval.
+- **Trust:** Blockchain-stored hashes provide cryptographic proof of authenticity.
 
 ---
 
-### 14. Verification Process & Tamper-Proof Certification
+## 🤖 15. Facial Recognition for Secure Authentication
 
-**🔎 Tamper-Proof Mechanism:**
-- **Mechanism:** The immutable nature of blockchain ensures that any alteration in the certificate changes the hash, flagging tampering.
+### 🧠 Face Recognition Service
+- **Implementation:** OpenCV-powered Flask microservice.
+- **Repository:** [Face Recognition Service Repository](https://github.com/Nitish2773/face-recognition-app)
 
-**👩‍🏫 Teacher’s Role:**
-- **Role:** Teachers verify the certificate manually before the hash is stored on-chain, ensuring authenticity.
-
----
-
-### 15. Facial Recognition for Student Authentication
-
-**🤖 Face Recognition Service:**
-- **Implementation:** A separate Flask-based microservice using OpenCV.
-- **Repository Link:** [Face Recognition Service Repository](https://github.com/Nitish2773/face-recognition-app)
-
-**🔒 Purpose:**
-- **Security:** Ensures that only the genuine student can log in and upload certificates, preventing impersonation.
+### 🔑 Purpose
+- **Enhanced Security:** Only verified students can log in and upload certificates.
+- **Prevention:** Eliminates fraudulent login attempts.
 
 ---
 
-### 16. User Roles & Permissions
+## 🛡️ 16. User Roles & Permissions
 
-| Role     | Permissions                                                                 |
-|----------|------------------------------------------------------------------------------|
-| Student  | 📤 Upload certificates, 👁️ View own certificates, 🔄 Request verification     |
-| Teacher  | ✅ Verify certificates, 📝 Approve/Reject uploads, 📊 Manage verification records |
-| Company  | 🔍 Validate certificate authenticity, 📄 Access verification history          |
+| Role     | Permissions |
+|----------|------------|
+| 🎓 Student  | Upload certificates, View own records, Request verification |
+| 👩‍🏫 Teacher  | Verify certificates, Approve/Reject uploads, Manage records |
+| 🏢 Company  | Validate certificate authenticity, Access verification history |
 
 ---
 
-### 17. Project Structure Breakdown
-
-Here's a detailed breakdown of the project structure for the CertifySecure app:
+## 📁 17. Project Structure Breakdown
 
 ```
 certify_secure_app/
@@ -511,68 +501,66 @@ certify_secure_app/
 └── README.md                  # 📖 Project documentation (this file)
 ```
 
-### 18. Git Cloning & Usage
+---
 
-**🚀 Clone the Repository:**
-To get started with the CertifySecure app, clone the repository and navigate to the project directory:
+## 🚀 18. Git Cloning & Usage
 
+### 📥 Clone the Repository
 ```bash
 git clone https://github.com/your-org/certifysecure.git
 cd certify_secure_app
 ```
 
-**📦 Install Dependencies:**
-Ensure all dependencies are installed by running:
-
+### 📦 Install Dependencies
 ```bash
 flutter pub get
 ```
 
-**▶️ Run the App:**
-Launch the app on your preferred platform:
-
+### ▶️ Run the App
 ```bash
 flutter run
 ```
 
 ---
+# **CertifySecure: Deployment & Documentation**
 
-### 19. Deployment Guide
+## **19. Deployment Guide**
 
-**Flutter App Deployment:**
+### **📱 Flutter App Deployment**
 
-**📱 Build for Android:**
+#### **Android Build:**
 Generate an APK for Android devices:
-
 ```bash
 flutter build apk
 ```
 
-**🍎 Build for iOS:**
+#### **🍎 iOS Build:**
 Prepare the app for iOS deployment:
-
 ```bash
 flutter build ios
 ```
 
-**☁️ Deploy Web Version:**
+#### **☁️ Web Deployment:**
 Deploy the web version using Firebase:
-
 ```bash
 firebase deploy
 ```
 
-**Smart Contract Deployment:**
+---
 
-**⛓️ Deploy `certificate_registry.sol`:**
-Use Remix IDE to deploy the smart contract.
+### **⛓️ Smart Contract Deployment**
 
-**📝 Update `blockchain_service.dart`:**
-Ensure the deployed contract address is updated in the service file.
+#### **Deploy `certificate_registry.sol`**
+- Use **Remix IDE** to deploy the smart contract on the **Sepolia Test Network**.
+- Verify contract deployment using **Etherscan**.
 
-**Backend Deployment on Render:**
+#### **Update `blockchain_service.dart`**
+Ensure the deployed contract address is updated in the blockchain service file for accurate interactions.
+
+---
+
+### **💻 Backend Deployment on Render**
 Create a `render.yaml` file for deployment:
-
 ```yaml
 services:
   - type: web
@@ -582,89 +570,81 @@ services:
     startCommand: python main.py
 ```
 
+Deploy using GitHub integration or manual deployment through Render's web dashboard.
+
 ---
 
-## **20. Screenshots & Video Demo**  
+## **20. Screenshots & Video Demo**
 
-### **🔹 Firebase Console**  
-
+### **🔹 Firebase Console**
 ![Firebase Auth](assets/screenshots/firebase-auth.png)  
 ![Firebase Storage](assets/screenshots/firebase_storage.png)  
 ![Firebase Firestore Database](assets/screenshots/firebase-firestore-database.png)  
 
-### **🔹 Remix IDE**  
-![Remix IDE](assets/screenshots/Remix-ide.png)  
-![Remix IDE](assets/screenshots/remixide-2.png)  
-
-### **🔹 MetaMask Wallet**  
+### **🔹 Blockchain & Wallets**
+![Remix IDE](assets/screenshots/remixide-1.png)  
 ![MetaMask Wallet](assets/screenshots/metamask.png)  
-
-### **🔹 Infura Dashboard**  
 ![Infura Dashboard](assets/screenshots/infura.png)  
-![Infura Dashboard](assets/screenshots/infura-2.png) 
 
-### **🔹 Render App Dashboard**  
-![Render App Dashboard](assets/screenshots/render-face-app.png)  
+### **🔹 Render Deployment Dashboard**
+![Render Dashboard](assets/screenshots/render-face-app.png)  
 
 ---
 
-## **📹 Video Demo**  
+## **📹 Video Demo**
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://drive.google.com/file/d/1G0fa2hgd1Blz7GMigYr9iASvZT-f3mjc/view?usp=sharing">
-          <img src="assets/screenshots/app-logo.png" alt="Video Demo" width="200">
-        </a>
-      </td>
-    </tr>
-  </table>
+  <a href="https://drive.google.com/file/d/1G0fa2hgd1Blz7GMigYr9iASvZT-f3mjc/view?usp=sharing">
+    <img src="assets/screenshots/app-logo.png" alt="Video Demo" width="200">
+  </a>
+  
+  **(Click the image to watch the full demo video.)**
 </div>
 
-  **(Click on the image to watch the full demo video.)**
+---
+
+## **21. Contact Details**
+
+- **📌 Project Lead:** Sri Nitish Kamisetti
+- **📧 Email:** nitishkamisetti123@gmail.com
+- **🔗 LinkedIn:** [Profile](https://www.linkedin.com/in/sri-nitish-kamisetti/)
+- **💻 GitHub:** [Profile](https://github.com/Nitish2773)
 
 ---
 
-### 21. Contact Details
+## **22. Conference Presentation Details**
 
-For any inquiries or further information, please contact:
+### **🎤 Presentation Title:**
+*CertifySecure: Blockchain-Integrated Student Certificate Validation App with Flutter*
 
-- **Project Lead:** Sri Nitish Kamisetti
-- **Email:** nitishkamisetti123@gmail.com
-- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/sri-nitish-kamisetti/)
-- **GitHub:** [GitHub Profile](https://github.com/Nitish2773)
+### **🗓️ Conference Details:**
+- **Event:** International Conference on Innovative Product Design and Intelligent Manufacturing Systems (ICIPDIMS 2024)
+- **Organizer:** AITAM College
+- **Date:** December 4, 2024
+- **Mode:** Remote Presentation
 
----
+### **📄 Abstract:**
+In the education sector, students receive certificates upon completion of their studies. Traditional certificate validation methods require manual verification, which can be tampered with. **CertifySecure** leverages **blockchain technology** to ensure certificates remain **immutable and verifiable**. By integrating **facial recognition authentication**, the project prevents impersonation while enhancing security. The app is developed using **Flutter and Firebase**, with **Ethereum blockchain** storing certificate hashes for tamper-proof verification.
 
-### 22. Conference Presentation Details
+### **🔑 Keywords:**
+Certificate Verification | Facial Recognition | Secure Authentication | Blockchain | Flutter | Remix IDE | MetaMask
 
-**🎤 Presentation Title:**
-"CertifySecure: Blockchain-Integrated Student Certificate Validation App with Flutter"
-
-**🗓️ Conference:**
-- **Name:** International Conference on Innovative Product Design and Intelligent Manufacturing Systems (ICIPDIMS 2024) Organized by AITAM College
-- **Date:** 04-12-2024
-- **Location:** Remote
-
-**📄 Abstract:**
-
-In the education sector, certificates are awarded to students who complete their studies. This project mainly addresses the difficulties faced in submitting the certificates to the company for getting jobs in the public or private sectors. Students present these certificates for applying for jobs, where all these certificates need to be verified manually. The students can tamper or submit fake academic certificates. So, to avoid such problems, blockchain technology is used to establish a decentralized network for storing and validating certificates. Because blockchain is more secure, immutable, and provides trust between educational institutions, teachers, and recruiters. Existing methods of validating student certificates often suffer from secure authentication. There is a lack of advanced features of facial recognition for the students, and it mitigates the risk of tampering with the student credentials. This project utilizes Flutter and Firebase for mobile app development and integrates blockchain for tamper-proof certificates.
-
-**Keywords:** Certificate verification, Facial Recognition, Secure Authentication, Blockchain, Flutter, Remix IDE, MetaMask.
-
-**📈 Presentation Slides:**
-- **Link to Slides** [Link to Slides](https://docs.google.com/presentation/d/1m_h0iNQmb39QIWQBq8qdor8nygsJoeC0/edit?usp=sharing&ouid=114377696364244652161&rtpof=true&sd=true)
+### **📊 Presentation Slides:**
+📎 [Click Here](https://docs.google.com/presentation/d/1m_h0iNQmb39QIWQBq8qdor8nygsJoeC0/edit?usp=sharing&ouid=114377696364244652161&rtpof=true&sd=true) to access the slides.
 
 ---
 
-### 23. Future Enhancements
+## **23. Future Enhancements**
 
-- **QR Code Verification:**
-  - **Future Implementation:** Integrate QR code scanning for quick validation of certificates by recruiters.
-  - **Purpose:** Enhance the verification process by allowing recruiters to scan a QR code linked to a certificate to retrieve the blockchain-stored hash.
+### **🚀 QR Code Verification:**
+- **Planned Implementation:** QR code scanning to validate certificates instantly.
+- **Purpose:** Recruiters can scan a QR code linked to a certificate for on-the-spot verification.
 
-- **Advanced Features:**
-  - **Explore:** Additional security features and integrations to further enhance the app's capabilities.
+### **🔒 Enhanced Security Features:**
+- Strengthening authentication methods.
+- Exploring AI-powered anomaly detection for fraudulent certificate submissions.
 
 ---
+
+🚀 **CertifySecure** aims to revolutionize academic certificate validation through **blockchain technology**, **facial recognition**, and **secure cloud storage**! 🎓🔗
+
