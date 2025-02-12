@@ -138,9 +138,9 @@ CertifySecure is an innovative application designed to provide a secure and tamp
 - **🚀 Splash Screen & Role Selection:**  
   - **Description:** Initial welcome screen with app branding and user role selection.  
   - **Files:** `splash_screen.dart`, `role_selection_screen.dart`  
-  <div>
-    <img src="assets/screenshots/Splash_screen.jpg" alt="Splash Screen" width="300" style="margin-right: 20px; margin-top: 10px;">
-    <img src="assets/screenshots/role_selection.jpg" alt="Role Selection Screen" width="300" style="margin-top: 10px;">
+  <div style="margin-top:20px">
+    <img src="assets/screenshots/Splash_screen.jpg" alt="Splash Screen" width="300" style="margin-right: 20px; margin-top: 20px; margin-left: 20px; margin-bottom:20px">
+    <img src="assets/screenshots/role_selection.jpg" alt="Role Selection Screen" width="300" style="margin-top: 20px;">
   </div>
 
 - **🔑 Login Screens (All Roles):**  
