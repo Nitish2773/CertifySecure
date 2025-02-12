@@ -2,6 +2,8 @@
 # CertifySecure: Blockchain-Integrated Student Certificate Validation App with Flutter
 
 ---
+🚀 *CertifySecure ensures a tamper-proof, blockchain-backed certificate verification system with seamless authentication and user management. Start using it today!*
+---
 
 # 📑 **Table of Contents**  
 
@@ -110,7 +112,7 @@ flutter run
 
 
 ---
-## **4. Android & iOS Setup**
+# **4. Android & iOS Setup**
 
 ### **📱 Android**
 - 🛠️ **Configure `android/app/build.gradle`**: Set up signing keys, version codes, and required permissions.
@@ -143,7 +145,7 @@ flutter run
 - `animate_do`, `cupertino_icons` → Enhances animations & iconography.
 
 ---
-## **6. Major Screens & UI Implementations**
+# **6. Major Screens & UI Implementations**
 
 ### **🚀 Splash Screen & Role Selection**
 - **Description:** Initial welcome screen displaying app branding & user role selection.
@@ -171,6 +173,9 @@ flutter run
     <tr>
       <td><img src="assets/screenshots/company_login.jpg" width="300"></td>
       <td><img src="assets/screenshots/face_auth-1.png" width="300"></td>
+    </tr>
+    <tr align="center">
+      <td><img src="assets/screenshots/face_auth-2.png" width="300"></td>
     </tr>
   </table>
 </div>
@@ -228,13 +233,12 @@ flutter run
 </div>
 
 ---
-## **7. Blockchain & SHA-256 Hashing**
+# **7. Blockchain & SHA-256 Hashing**
 
 ### **🔒 SHA-256 Hash Generation**
 Certificates are hashed to generate a unique SHA-256 fingerprint.
 
 ```dart
-```
 import 'dart:io';
 import 'package:crypto/crypto.dart';
 import 'dart:convert';
@@ -246,7 +250,6 @@ class CertificateHasher {
     return hash.toString();
   }
 }
-```
 ```
 
 ### **⛓️ Blockchain Storage (Smart Contract in Solidity)**
@@ -279,7 +282,6 @@ contract CertificateRegistry {
 Handles communication with the Ethereum blockchain via `web3dart`.
 
 ```dart
-```
 import 'package:web3dart/web3dart.dart';
 import 'package:http/http.dart';
 
@@ -302,9 +304,9 @@ class BlockchainService {
   }
 }
 ```
-```
+
 ---
-### 8. Blockchain Technologies
+# 8. Blockchain Technologies
 
 **🛠️ Remix IDE:**
 - 🚀 **Purpose:** A browser-based IDE for developing, deploying, and testing smart contracts written in Solidity.
@@ -328,7 +330,7 @@ class BlockchainService {
 
 ---
 
-### 9. Immutable Data & Blockchain Verification
+# 9. Immutable Data & Blockchain Verification
 
 **🔒 Immutable Data:**
 - Once a certificate hash is stored on the blockchain, it **cannot** be modified or deleted, ensuring data integrity and security.
@@ -340,7 +342,7 @@ class BlockchainService {
 
 ---
 
-### 10. Firebase Backend Setup
+# 10. Firebase Backend Setup
 
 **🔥 Firestore Database:**
 - 📂 **Purpose:** Stores user data, certificate metadata, and verification statuses.
@@ -357,7 +359,7 @@ class BlockchainService {
 
 ---
 
-### 11. CSV-based User Registration
+# 11. CSV-based User Registration
 
 **📄 Bulk Registration:**
 - Users can be onboarded in bulk using a CSV file, streamlining the registration process.
@@ -381,7 +383,7 @@ company,company@example.com,UID789,pass789,company,Company HR,,,,,,
 
 ---
 
-### 12. Firebase Authentication & Storage
+# 12. Firebase Authentication & Storage
 
 **🔑 Firebase Authentication:**
 - ✅ **Supports:** Email/Password, Google Sign-In, and biometric login (facial recognition).
@@ -397,9 +399,8 @@ company,company@example.com,UID789,pass789,company,Company HR,,,,,,
 - 🔍 **Purpose:** Ensures only verified app instances can interact with backend resources, minimizing security risks.
 
 ---
-# CertifySecure: Blockchain-Powered Certificate Verification System
 
-## 📌 13. Complete App Workflow
+# 📌 13. Complete App Workflow
 
 ### 🎓 Student Registration & Authentication
 - **Process:** Students register and log in using Firebase Authentication.
@@ -418,7 +419,7 @@ company,company@example.com,UID789,pass789,company,Company HR,,,,,,
 
 ---
 
-## 🔍 14. Verification & Tamper-Proof Certification
+# 🔍 14. Verification & Tamper-Proof Certification
 
 ### 🔒 Tamper-Proof Mechanism
 - **Immutable Data:** Blockchain ensures that once stored, data cannot be modified.
@@ -430,7 +431,7 @@ company,company@example.com,UID789,pass789,company,Company HR,,,,,,
 
 ---
 
-## 🤖 15. Facial Recognition for Secure Authentication
+# 🤖 15. Facial Recognition for Secure Authentication
 
 ### 🧠 Face Recognition Service
 - **Implementation:** OpenCV-powered Flask microservice.
@@ -442,7 +443,7 @@ company,company@example.com,UID789,pass789,company,Company HR,,,,,,
 
 ---
 
-## 🛡️ 16. User Roles & Permissions
+# 🛡️ 16. User Roles & Permissions
 
 | Role     | Permissions |
 |----------|------------|
@@ -452,7 +453,7 @@ company,company@example.com,UID789,pass789,company,Company HR,,,,,,
 
 ---
 
-## 📁 17. Project Structure Breakdown
+# 📁 17. Project Structure Breakdown
 
 ```
 certify_secure_app/
@@ -503,7 +504,7 @@ certify_secure_app/
 
 ---
 
-## 🚀 18. Git Cloning & Usage
+# 🚀 18. Git Cloning & Usage
 
 ### 📥 Clone the Repository
 ```bash
@@ -522,9 +523,8 @@ flutter run
 ```
 
 ---
-# **CertifySecure: Deployment & Documentation**
 
-## **19. Deployment Guide**
+# **19. Deployment Guide**
 
 ### **📱 Flutter App Deployment**
 
@@ -574,7 +574,7 @@ Deploy using GitHub integration or manual deployment through Render's web dashbo
 
 ---
 
-## **20. Screenshots & Video Demo**
+# **20. Screenshots & Video Demo**
 
 ### **🔹 Firebase Console**
 ![Firebase Auth](assets/screenshots/firebase-auth.png)  
@@ -591,7 +591,7 @@ Deploy using GitHub integration or manual deployment through Render's web dashbo
 
 ---
 
-## **📹 Video Demo**
+# **📹 Video Demo**
 
 <div align="center">
   <a href="https://drive.google.com/file/d/1G0fa2hgd1Blz7GMigYr9iASvZT-f3mjc/view?usp=sharing">
@@ -603,7 +603,7 @@ Deploy using GitHub integration or manual deployment through Render's web dashbo
 
 ---
 
-## **21. Contact Details**
+# **21. Contact Details**
 
 - **📌 Project Lead:** Sri Nitish Kamisetti
 - **📧 Email:** nitishkamisetti123@gmail.com
@@ -612,7 +612,7 @@ Deploy using GitHub integration or manual deployment through Render's web dashbo
 
 ---
 
-## **22. Conference Presentation Details**
+# **22. Conference Presentation Details**
 
 ### **🎤 Presentation Title:**
 *CertifySecure: Blockchain-Integrated Student Certificate Validation App with Flutter*
@@ -634,7 +634,7 @@ Certificate Verification | Facial Recognition | Secure Authentication | Blockcha
 
 ---
 
-## **23. Future Enhancements**
+# **23. Future Enhancements**
 
 ### **🚀 QR Code Verification:**
 - **Planned Implementation:** QR code scanning to validate certificates instantly.
