@@ -650,10 +650,7 @@ In the education sector, certificates are awarded to students who complete their
 - **QR Code Verification:**
   - **Future Implementation:** Integrate QR code scanning for quick validation of certificates by recruiters.
   - **Purpose:** Enhance the verification process by allowing recruiters to scan a QR code linked to a certificate to retrieve the blockchain-stored hash.
-
-- **Additional Screenshots:**
-  - **Include:** Screenshots of Firebase console, Remix IDE, MetaMask, Infura, and other relevant tools.
-
+  
 - **Advanced Features:**
   - **Explore:** Additional security features and integrations to further enhance the app's capabilities.
 
