@@ -254,10 +254,6 @@ CertifySecure is an innovative application designed to provide a secure and tamp
 
   <br><br>
 
-- **🖥️ Additional Screens & Console Views:**  
-  - **Firebase Console, Remix IDE, MetaMask, and Infura Views:**  
-    - *(Place placeholders or actual screenshots here to illustrate backend setups and blockchain interactions.)*
-
 ---
 
 ### 7. Blockchain & SHA-256 Hashing
@@ -359,8 +355,6 @@ Once a certificate hash is stored on the blockchain, it cannot be changed or del
 **🚫 Firebase App Check:**
 - **Purpose:** Ensures that only verified app instances can access backend resources.
 
-*(Include screenshots from the Firebase console for visual reference.)*
-
 ---
 
 ### 11. CSV-based User Registration
@@ -401,8 +395,6 @@ company@example.com,UID789,pass789,company,Company HR,,,,,,
 
 **🚫 Firebase App Check:**
 - **Purpose:** Ensures that only verified app instances can access backend resources.
-
-*(Include placeholder images of the Firebase Authentication dashboard and Firestore collections.)*
 
 ---
 
@@ -504,10 +496,6 @@ certify_secure_app/
 └── README.md                  # 📖 Project documentation (this file)
 ```
 
-Great! Let's continue with the next part of the document:
-
----
-
 ### 18. Git Cloning & Usage
 
 **🚀 Clone the Repository:**
@@ -577,20 +565,37 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
-```
 
+---
 
-### 20. Screenshots & Video Demo
+## **20. Screenshots & Video Demo**  
 
-**🎥 Feature Screenshots (Placeholder)**
-- **Login Page:** *(Placeholder for actual image)*
-- **Student Dashboard:** *(Placeholder for actual image)*
-- **Certificate Upload:** *(Placeholder for actual image)*
+### **🔹 Firebase Console**  
 
-*(Space for screenshots of Firebase console, Remix IDE, MetaMask, Infura, etc.)*
+![Firebase Auth](assets/screenshots/firebase_auth.png)  
+![Firebase Storage](assets/screenshots/firebase_storage.png)  
+![Firebase Firestore Database](assets/screenshots/firebase-firestore-database.png)  
 
-**📹 Video Demo:**
-- Demo Video
+### **🔹 Remix IDE**  
+![Remix IDE](assets/screenshots/Remix_ide.png)  
+![Remix IDE](assets/screenshots/remixide-2.png)  
+
+### **🔹 MetaMask Wallet**  
+![MetaMask Wallet](assets/screenshots/metamask.png)  
+
+### **🔹 Infura Dashboard**  
+![Infura Dashboard](assets/screenshots/infura.png)  
+![Infura Dashboard](assets/screenshots/infura-2.png) 
+
+### **🔹 Render App Dashboard**  
+![Render App Dashboard](assets/screenshots/render-face-app.png)  
+
+---
+
+## **📹 Video Demo**  
+![Video Demo Preview](assets/screenshots/video_demo_preview.png)  
+
+*(Click on the image to watch the full demo video.)*  
 
 ---
 
