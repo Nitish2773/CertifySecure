@@ -138,7 +138,7 @@ CertifySecure is an innovative application designed to provide a secure and tamp
 - **🚀 Splash Screen & Role Selection:**  
   - **Description:** Initial welcome screen with app branding and user role selection.  
   - **Files:** `splash_screen.dart`, `role_selection_screen.dart`  
-
+  <br><br>
   <div align="center">
     <table>
       <tr>
@@ -153,7 +153,7 @@ CertifySecure is an innovative application designed to provide a secure and tamp
 - **🔑 Login Screens (All Roles):**  
   - **Description:** Different login interfaces for students, teachers, and recruiters.  
   - **Files:** `login.dart`, `face_recognition_screen.dart`, `teacher_login.dart`, `company_login.dart`  
-
+  <br><br>
   <div align="center">
     <table>
       <tr>
@@ -176,12 +176,12 @@ CertifySecure is an innovative application designed to provide a secure and tamp
 - **🏠 Student Dashboard:**  
   - **Description:** Displays certificate statuses, upload options, and profile details for students.  
   - **Files:** `student_dashboard.dart`, `home_screen.dart`, `profile_screen.dart`  
-
+  <br><br>
   <div align="center">
     <table>
       <tr>
-        <td><img src="assets/screenshots/student_home_screen.jpg" alt="Student Home Screen" width="300" height="500"></td>
-        <td><img src="assets/screenshots/student_profile_screen.jpg" alt="Student Profile Screen" width="300" height="500"></td>
+        <td><img src="assets/screenshots/student_home_screen.jpg" alt="Student Home Screen" width="300" ></td>
+        <td><img src="assets/screenshots/student_profile_screen.jpg" alt="Student Profile Screen" width="300" ></td>
       </tr>
     </table>
   </div>
@@ -191,11 +191,11 @@ CertifySecure is an innovative application designed to provide a secure and tamp
 - **📤 Certificate Upload Screen:**  
   - **Description:** Allows students to upload their certificates with an option to generate a SHA-256 hash.  
   - **Files:** `upload_certificate_screen.dart`  
-
+  <br><br>
   <div align="center">
     <table>
       <tr>
-        <td><img src="assets/screenshots/student_upload_cert_screen.jpg" alt="Student Certificate Upload Screen" width="300" height="500"></td>
+        <td><img src="assets/screenshots/student_upload_cert_screen.jpg" alt="Student Certificate Upload Screen" width="300" ></td>
       </tr>
     </table>
   </div>
@@ -205,7 +205,7 @@ CertifySecure is an innovative application designed to provide a secure and tamp
 - **👀 View Certificates Screen:**  
   - **Description:** Enables students to view all their submitted certificates along with verification status.  
   - **Files:** `view_certificates_screen.dart`  
-
+  <br><br>
   <div align="center">
     <table>
       <tr>
@@ -219,11 +219,11 @@ CertifySecure is an innovative application designed to provide a secure and tamp
 - **📊 Teacher Dashboard:**  
   - **Description:** Provides teachers with tools to verify certificates, view pending verifications, and access their profile.  
   - **Files:** `teacher_dashboard.dart`, `teacher_home_screen.dart`, `teacher_profile_screen.dart`  
-
+  <br><br>
   <div align="center">
     <table>
       <tr>
-        <td><img src="assets/screenshots/teacher_home_screen.jpg" alt="Teacher Home Screen" width="300" height="500"></td>
+        <td><img src="assets/screenshots/teacher_home_screen.jpg" alt="Teacher Home Screen" width="300" ></td>
         <td><img src="assets/screenshots/teacher_home_screen-2.jpg" alt="Teacher Home Screen 2" width="300" height="500"></td>
       </tr>
       <tr>
@@ -238,12 +238,12 @@ CertifySecure is an innovative application designed to provide a secure and tamp
 - **🏢 Company/Recruiter Dashboard:**  
   - **Description:** Enables recruiters to scan QR codes and validate certificate authenticity.  
   - **Files:** (Located under the `company/` folder)  
-
+  <br><br>
   <div align="center">
     <table>
       <tr>
-        <td><img src="assets/screenshots/company_home_screen.jpg" alt="Company Home Screen" width="300" height="500"></td>
-        <td><img src="assets/screenshots/company_verify_cert_screen.jpg" alt="Company Verify Certificate Screen" width="300" height="500"></td>
+        <td><img src="assets/screenshots/company_home_screen.jpg" alt="Company Home Screen" width="300" ></td>
+        <td><img src="assets/screenshots/company_verify_cert_screen.jpg" alt="Company Verify Certificate Screen" width="300" ></td>
       </tr>
       <tr>
         <td><img src="assets/screenshots/company_block-not_verified_screen.jpg" alt="Company Blocked Certificate - Not Verified" width="300" height="500"></td>
