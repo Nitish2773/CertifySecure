@@ -1,7 +1,7 @@
 
----
+### CertifySecure: Blockchain-Integrated Student Certificate Validation App with Flutter
 
-**CertifySecure: Blockchain-Integrated Student Certificate Validation App with Flutter**
+---
 
 📑 **Table of Contents**
 
