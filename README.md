@@ -3,6 +3,7 @@
 
 ---
 🚀 *CertifySecure ensures a tamper-proof, blockchain-backed certificate verification system with seamless authentication and user management. Start using it today!*
+
 ---
 
 # 📑 **Table of Contents**  
@@ -175,7 +176,7 @@ flutter run
       <td><img src="assets/screenshots/face_auth-1.png" width="300"></td>
     </tr>
     <tr align="center">
-      <td><img src="assets/screenshots/face_auth-2.png" width="300"></td>
+      <td><img src="assets\screenshots\face-auth-2.png" width="300"></td>
     </tr>
   </table>
 </div>
@@ -578,13 +579,15 @@ Deploy using GitHub integration or manual deployment through Render's web dashbo
 
 ### **🔹 Firebase Console**
 ![Firebase Auth](assets/screenshots/firebase-auth.png)  
-![Firebase Storage](assets/screenshots/firebase_storage.png)  
+![Firebase Storage](assets/screenshots/firebase-storage.png)  
 ![Firebase Firestore Database](assets/screenshots/firebase-firestore-database.png)  
 
 ### **🔹 Blockchain & Wallets**
-![Remix IDE](assets/screenshots/remixide-1.png)  
+![Remix IDE](assets/screenshots/Remix-ide.png)  
+![Remix IDE](assets/screenshots/remixide-2.png)  
 ![MetaMask Wallet](assets/screenshots/metamask.png)  
 ![Infura Dashboard](assets/screenshots/infura.png)  
+![Infura Dashboard](assets/screenshots/infura-2.png)  
 
 ### **🔹 Render Deployment Dashboard**
 ![Render Dashboard](assets/screenshots/render-face-app.png)  
