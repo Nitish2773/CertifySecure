@@ -597,7 +597,17 @@ services:
 
 ## **📹 Video Demo**  
 
-[![Video Demo](assets/screenshots/app-logo.png)](https://drive.google.com/file/d/1G0fa2hgd1Blz7GMigYr9iASvZT-f3mjc/view?usp=sharing)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://drive.google.com/file/d/1G0fa2hgd1Blz7GMigYr9iASvZT-f3mjc/view?usp=sharing">
+          <img src="assets/screenshots/app-logo.png" alt="Video Demo" width="200">
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
