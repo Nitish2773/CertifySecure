@@ -2,10 +2,8 @@ certify_secure_app google-services.json users.csv text=auto
 google-services.json users.csv text eol=lf
 # Auto detect text files and perform LF normalization
 * text=auto
-
 # Force the following filetypes to have unix eols, so Windows does not break them
 *.* text eol=lf
-
 # These files are binary and should be left untouched
 *.png binary
 *.jpg binary
@@ -13,7 +11,7 @@ google-services.json users.csv text eol=lf
 *.gif binary
 *.ico binary
 *.mov binary
-*.mp4 binary
+*.mp4 filter=lfs diff=lfs merge=lfs -text
 *.mp3 binary
 *.flv binary
 *.fla binary
@@ -30,7 +28,6 @@ google-services.json users.csv text eol=lf
 *.bz2 binary
 *.swp binary
 *.webp binary
-
 # Specific file types
 *.json text eol=lf
 *.lock text eol=lf
@@ -47,9 +44,9 @@ google-services.json users.csv text eol=lf
 *.properties text eol=lf
 *.xml text eol=lf
 *.txt text eol=lf
-
 # Specific files
 pubspec.lock text eol=lf
 package-lock.json text eol=lf
 package.json text eol=lf
 .metadata text eol=lf
+*.mp4 filter=lfs diff=lfs merge=lfs -text
