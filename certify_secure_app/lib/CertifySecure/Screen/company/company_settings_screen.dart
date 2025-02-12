@@ -13,10 +13,10 @@ class CompanySettingsScreen extends StatefulWidget {
   final Function(Map<String, dynamic>) onSettingsUpdated;
 
   const CompanySettingsScreen({
-    Key? key,
+    super.key,
     required this.companyData,
     required this.onSettingsUpdated,
-  }) : super(key: key);
+  });
 
   @override
   State<CompanySettingsScreen> createState() => _CompanySettingsScreenState();

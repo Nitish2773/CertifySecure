@@ -326,8 +326,8 @@ void _showCertificateDetails(DocumentSnapshot doc) {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(
-                    children: const [
+                  const Row(
+                    children: [
                       Icon(Icons.verified_user, color: AppColors.success),
                       SizedBox(width: 10),
                       Text(

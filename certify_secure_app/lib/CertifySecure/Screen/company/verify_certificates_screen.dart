@@ -78,7 +78,7 @@ class _VerifyCertificatesScreenState extends State<VerifyCertificatesScreen> {
   final _blockchainService = BlockchainService();
 
   bool _isLoading = false;
-  bool _isLoadingDetails = false;
+  final bool _isLoadingDetails = false;
   String? _verificationResult;
   bool _isVerified = false;
   CertificateDetails? _certificateDetails;
@@ -553,15 +553,15 @@ Future<void> _verifyHash() async {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Row(
+          const Row(
             children: [
-              const Icon(
+              Icon(
                 Icons.verified_user,
                 color: AppColors.primary,
                 size: 24,
               ),
-              const SizedBox(width: 10),
-              const Text(
+              SizedBox(width: 10),
+              Text(
                 'Certificate Details',
                 style: TextStyle(
                   fontSize: 20,
@@ -579,15 +579,15 @@ Future<void> _verifyHash() async {
           _buildDetailRow(
               'Issue Date', Helpers.formatDate(_certificateDetails!.issueDate)),
           const Divider(height: 30),
-          Row(
+          const Row(
             children: [
-              const Icon(
+              Icon(
                 Icons.person,
                 color: AppColors.primary,
                 size: 20,
               ),
-              const SizedBox(width: 10),
-              const Text(
+              SizedBox(width: 10),
+              Text(
                 'Student Information',
                 style: TextStyle(
                   fontSize: 18,
@@ -602,15 +602,15 @@ Future<void> _verifyHash() async {
           _buildDetailRow('Roll Number', _certificateDetails!.rollNumber),
           _buildDetailRow('Department', _certificateDetails!.department),
           const Divider(height: 30),
-          Row(
+          const Row(
             children: [
-              const Icon(
+              Icon(
                 Icons.security,
                 color: AppColors.primary,
                 size: 20,
               ),
-              const SizedBox(width: 10),
-              const Text(
+              SizedBox(width: 10),
+              Text(
                 'Verification Information',
                 style: TextStyle(
                   fontSize: 18,

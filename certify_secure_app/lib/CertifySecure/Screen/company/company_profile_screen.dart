@@ -14,10 +14,10 @@ class CompanyProfileScreen extends StatefulWidget {
   final Function(CompanyData) onProfileUpdated;
 
   const CompanyProfileScreen({
-    Key? key,
+    super.key,
     required this.companyData,
     required this.onProfileUpdated,
-  }) : super(key: key);
+  });
 
   @override
   State<CompanyProfileScreen> createState() => _CompanyProfileScreenState();

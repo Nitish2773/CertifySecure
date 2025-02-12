@@ -126,7 +126,7 @@ class AuthException implements Exception {
 
 
 class CompanyDashboard extends StatefulWidget {
-  const CompanyDashboard({Key? key}) : super(key: key);
+  const CompanyDashboard({super.key});
 
   @override
   State<CompanyDashboard> createState() => _CompanyDashboardState();
@@ -348,13 +348,13 @@ class _CompanyDashboardState extends State<CompanyDashboard>
   }
 
   Widget _buildLoadingScreen() {
-    return Scaffold(
+    return const Scaffold(
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const CircularProgressIndicator(),
-            const SizedBox(height: 16),
+            CircularProgressIndicator(),
+            SizedBox(height: 16),
             Text(
               'Initializing Dashboard...',
               style: TextStyle(
@@ -374,13 +374,13 @@ class _CompanyDashboardState extends State<CompanyDashboard>
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
+            const Icon(
               Icons.error_outline,
               size: 64,
               color: AppColors.error,
             ),
             const SizedBox(height: 16),
-            Text(
+            const Text(
               'Dashboard Initialization Failed',
               style: TextStyle(
                 fontSize: 18,
@@ -412,13 +412,13 @@ class _CompanyDashboardState extends State<CompanyDashboard>
   }
 
   Widget _buildUninitializedScreen() {
-    return Scaffold(
+    return const Scaffold(
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const CircularProgressIndicator(),
-            const SizedBox(height: 16),
+            CircularProgressIndicator(),
+            SizedBox(height: 16),
             Text(
               'Preparing Dashboard...',
               style: TextStyle(
@@ -699,9 +699,9 @@ class _CompanyDashboardState extends State<CompanyDashboard>
 
   Widget _buildInitials() {
     if (_companyData?.name == null || _companyData!.name.isEmpty) {
-      return Text(
+      return const Text(
         'C',
-        style: const TextStyle(
+        style: TextStyle(
           color: Colors.white,
           fontWeight: FontWeight.bold,
         ),
@@ -1186,7 +1186,7 @@ class _ProfileOptionsSheet extends StatelessWidget {
           child: companyData.profileImage == null
               ? Text(
                   companyData.name.substring(0, 1).toUpperCase(),
-                  style: TextStyle(
+                  style: const TextStyle(
                     color: AppColors.primary,
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
@@ -1309,8 +1309,8 @@ class _ProfileOptionsSheet extends StatelessWidget {
           width: 50,
           height: 50,
         ),
-        children: [
-          const Text(
+        children: const [
+          Text(
             'CertifySecure is a certificate verification platform that helps '
             'companies verify educational certificates securely and efficiently.',
           ),

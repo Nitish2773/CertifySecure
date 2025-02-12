@@ -25,9 +25,9 @@ class CompanyHomeScreen extends StatefulWidget {
   final Map<String, dynamic> companyData;
 
   const CompanyHomeScreen({
-    Key? key,
+    super.key,
     required this.companyData,
-  }) : super(key: key);
+  });
 
   @override
   State<CompanyHomeScreen> createState() => _CompanyHomeScreenState();
@@ -150,7 +150,7 @@ class _CompanyHomeScreenState extends State<CompanyHomeScreen> {
       );
     } catch (e) {
       print('Error getting analytics: $e');
-      throw e;
+      rethrow;
     }
   }
 
@@ -209,7 +209,7 @@ class _CompanyHomeScreenState extends State<CompanyHomeScreen> {
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        gradient: LinearGradient(
+        gradient: const LinearGradient(
           colors: [
             AppColors.primary,
             AppColors.secondary,

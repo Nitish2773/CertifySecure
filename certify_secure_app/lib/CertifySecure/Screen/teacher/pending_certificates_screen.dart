@@ -302,7 +302,7 @@ class _PendingCertificatesScreenState extends State<PendingCertificatesScreen> {
             children: [
               Text('Verified by: ${currentUser?.displayName ?? 'Unknown Verifier'}'),
               Text('Department: ${widget.department}'),
-              Text('College: Your College Name'), // Add your college name
+              const Text('College: Your College Name'), // Add your college name
               const SizedBox(height: 10),
               const Text(
                 'This certificate has been verified as authentic and unmodified.',
