@@ -138,86 +138,84 @@ CertifySecure is an innovative application designed to provide a secure and tamp
 - **🚀 Splash Screen & Role Selection:**  
   - **Description:** Initial welcome screen with app branding and user role selection.  
   - **Files:** `splash_screen.dart`, `role_selection_screen.dart`  
-
   <div>
-    <img src="assets/screenshots/Splash_screen.jpg" alt="Splash Screen" width="300" margin="10">
-    
-    <img src="assets/screenshots/role_selection.jpg" alt="Role Selection Screen" width="300" margin="10">
+    <img src="assets/screenshots/Splash_screen.jpg" alt="Splash Screen" width="300" style="margin-right: 20px; margin-top: 10px;">
+    <img src="assets/screenshots/role_selection.jpg" alt="Role Selection Screen" width="300" style="margin-top: 10px;">
   </div>
 
 - **🔑 Login Screens (All Roles):**  
   - **Description:** Different login interfaces for students, teachers, and recruiters.  
   - **Files:** `login.dart`, `face_recognition_screen.dart`, `teacher_login.dart`, `company_login.dart`  
   <div>
-    <img src="assets/screenshots/student_login.jpg" alt="Student Login Screen" width="400">
-    <img src="assets/screenshots/teacher_login.jpg" alt="Teacher Login Screen" width="400">
+    <img src="assets/screenshots/student_login.jpg" alt="Student Login Screen" width="300" style="margin-right: 20px;">
+    <img src="assets/screenshots/teacher_login.jpg" alt="Teacher Login Screen" width="300">
   </div>
   <div>
-    <img src="assets/screenshots/company_login.jpg" alt="Company Login Screen" width="400">
-    <img src="assets/screenshots/face_auth-1.png" alt="Face Authentication Step 1" width="400">
+    <img src="assets/screenshots/company_login.jpg" alt="Company Login Screen" width="300" style="margin-right: 20px;">
+    <img src="assets/screenshots/face-auth-1.jpg" alt="Face Authentication Step 1" width="300">
   </div>
   <div>
-    <img src="assets/screenshots/face_auth-2.png" alt="Face Authentication Step 2" width="400">
+    <img src="assets/screenshots/face-auth-2.jpg" alt="Face Authentication Step 2" width="300">
   </div>
 
 - **🏠 Student Dashboard:**  
   - **Description:** Displays certificate statuses, upload options, and profile details for students.  
   - **Files:** `student_dashboard.dart`, `home_screen.dart`, `profile_screen.dart`  
   <div>
-    <img src="assets/screenshots/student_home_screen.jpg" alt="Student Home Screen" width="400">
-    <img src="assets/screenshots/student_profile_screen.jpg" alt="Student Profile Screen" width="400">
+    <img src="assets/screenshots/student_home_screen.jpg" alt="Student Home Screen" width="300" style="margin-right: 20px;">
+    <img src="assets/screenshots/student_profile_screen.jpg" alt="Student Profile Screen" width="300">
   </div>
 
 - **📤 Certificate Upload Screen:**  
   - **Description:** Allows students to upload their certificates with an option to generate a SHA-256 hash.  
   - **Files:** `upload_certificate_screen.dart`  
   <div>
-    <img src="assets/screenshots/student_upload_cert_screen.jpg" alt="Student Certificate Upload Screen" width="400">
+    <img src="assets/screenshots/student_upload_cert_screen.jpg" alt="Student Certificate Upload Screen" width="300">
   </div>
 
 - **👀 View Certificates Screen:**  
   - **Description:** Enables students to view all their submitted certificates along with verification status.  
   - **Files:** `view_certificates_screen.dart`  
   <div>
-    <img src="assets/screenshots/student_view_cert_screen.jpg" alt="Student Certificate View Screen" width="400">
+    <img src="assets/screenshots/student_view_cert_screen.jpg" alt="Student Certificate View Screen" width="300">
   </div>
 
 - **📊 Teacher Dashboard:**  
   - **Description:** Provides teachers with tools to verify certificates, view pending verifications, and access their profile.  
   - **Files:** `teacher_dashboard.dart`, `teacher_home_screen.dart`, `teacher_profile_screen.dart`  
   <div>
-    <img src="assets/screenshots/teacher_home_screen.jpg" alt="Teacher Home Screen" width="400">
-    <img src="assets/screenshots/teacher_home_screen-2.jpg" alt="Teacher Home Screen 2" width="400">
+    <img src="assets/screenshots/teacher_home_screen.jpg" alt="Teacher Home Screen" width="300" style="margin-right: 20px;">
+    <img src="assets/screenshots/teacher_home_screen-2.jpg" alt="Teacher Home Screen 2" width="300">
   </div>
   <div>
-    <img src="assets/screenshots/teacher_profile_screen.jpg" alt="Teacher Profile Screen" width="400">
+    <img src="assets/screenshots/teacher_profile_screen.jpg" alt="Teacher Profile Screen" width="300">
   </div>
 
 - **⏳ Teacher Pending Certificates Screen:**  
   - **Description:** Lists certificates pending verification for teacher review.  
   - **Files:** `pending_certificates_screen.dart`  
   <div>
-    <img src="assets/screenshots/teacher_pending_cert_screen.jpg" alt="Teacher Pending Certificate Screen" width="400">
-    <img src="assets/screenshots/teacher_pending_cert_screen-2.jpg" alt="Teacher Pending Certificate Screen 2" width="400">
+    <img src="assets/screenshots/teacher_pending_cert_screen.jpg" alt="Teacher Pending Certificate Screen" width="300" style="margin-right: 20px;">
+    <img src="assets/screenshots/teacher_pending_cert_screen-2.jpg" alt="Teacher Pending Certificate Screen 2" width="300">
   </div>
 
 - **✅ Verified Certificates Screen (Teacher):**  
   - **Description:** Displays certificates that have already been verified by teachers.  
   - **Files:** `verified_certificates_screen.dart`  
   <div>
-    <img src="assets/screenshots/teacher_verify_cert_screen.jpg" alt="Teacher Verify Certificate Screen" width="400">
-    <img src="assets/screenshots/teacher_verify_cert_screen-2.jpg" alt="Teacher Verify Certificate Screen 2" width="400">
+    <img src="assets/screenshots/teacher_verify_cert_screen.jpg" alt="Teacher Verify Certificate Screen" width="300" style="margin-right: 20px;">
+    <img src="assets/screenshots/teacher_verify_cert_screen-2.jpg" alt="Teacher Verify Certificate Screen 2" width="300">
   </div>
 
 - **🏢 Company/Recruiter Dashboard:**  
   - **Description:** Enables recruiters to scan QR codes and validate certificate authenticity.  
   - **Files:** (Located under the `company/` folder)  
   <div>
-    <img src="assets/screenshots/company_home_screen.jpg" alt="Company Home Screen" width="400">
-    <img src="assets/screenshots/company_verify_cert_screen.jpg" alt="Company Verify Certificate Screen" width="400">
+    <img src="assets/screenshots/company_home_screen.jpg" alt="Company Home Screen" width="300" style="margin-right: 20px;">
+    <img src="assets/screenshots/company_verify_cert_screen.jpg" alt="Company Verify Certificate Screen" width="300">
   </div>
   <div>
-    <img src="assets/screenshots/company_block-not_verified_screen.jpg" alt="Company Blocked Certificate - Not Verified" width="400">
+    <img src="assets/screenshots/company_block-not_verified_screen.jpg" alt="Company Blocked Certificate - Not Verified" width="300">
   </div>
 
 - **🖥️ Additional Screens & Console Views:**  
