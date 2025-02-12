@@ -598,7 +598,7 @@ services:
 ## **📹 Video Demo**  
 
 <a href="assets\video\CertifySecure_Video (1).mp4" target="_blank">
-  <img src="assets/screenshots/app-logo.png" alt="Video Demo Preview" width="400">
+  <img src="assets/screenshots/app-logo.png" alt="Video Demo Preview" width="300">
 </a>  
 
 *(Click on the image to watch the full demo video.)*  
