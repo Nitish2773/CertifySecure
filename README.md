@@ -209,7 +209,7 @@ CertifySecure is an innovative application designed to provide a secure and tamp
   <div align="center">
     <table>
       <tr>
-        <td><img src="assets/screenshots/student_view_cert_screen.jpg" alt="Student Certificate View Screen" width="300" height="500"></td>
+        <td><img src="assets/screenshots/student_view_cert_screen.jpg" alt="Student Certificate View Screen" width="300" height="600"></td>
       </tr>
     </table>
   </div>
