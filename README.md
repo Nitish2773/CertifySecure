@@ -597,13 +597,7 @@ services:
 
 ## **📹 Video Demo**  
 
-<video width="600" controls poster="assets/screenshots/app-logo.png">
-  <source src="assets\video\CertifySecure_Video (1).mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-
-*(Click on the image to watch the full demo video.)*  
+[![Video Demo](assets/screenshots/app-logo.png)](https://drive.google.com/file/d/1G0fa2hgd1Blz7GMigYr9iASvZT-f3mjc/view?usp=sharing)
 
 ---
 
