@@ -597,9 +597,11 @@ services:
 
 ## **📹 Video Demo**  
 
-<a href="assets\video\CertifySecure_Video (1).mp4" target="_blank">
-  <img src="assets/screenshots/app-logo.png" alt="Video Demo Preview" width="300">
-</a>  
+<video width="600" controls poster="assets/screenshots/app-logo.png">
+  <source src="assets\video\CertifySecure_Video (1).mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 *(Click on the image to watch the full demo video.)*  
 
