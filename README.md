@@ -573,12 +573,12 @@ services:
 
 ### **🔹 Firebase Console**  
 
-![Firebase Auth](assets/screenshots/firebase_auth.png)  
+![Firebase Auth](assets/screenshots/firebase-auth.png)  
 ![Firebase Storage](assets/screenshots/firebase_storage.png)  
 ![Firebase Firestore Database](assets/screenshots/firebase-firestore-database.png)  
 
 ### **🔹 Remix IDE**  
-![Remix IDE](assets/screenshots/Remix_ide.png)  
+![Remix IDE](assets/screenshots/Remix-ide.png)  
 ![Remix IDE](assets/screenshots/remixide-2.png)  
 
 ### **🔹 MetaMask Wallet**  
@@ -594,7 +594,7 @@ services:
 ---
 
 ## **📹 Video Demo**  
-![Video Demo Preview](assets/screenshots/video_demo_preview.png)  
+![Video Demo Preview](assets/screenshots/app-logo.png)  
 
 *(Click on the image to watch the full demo video.)*  
 
