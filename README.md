@@ -565,8 +565,7 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
-
----
+```
 
 ---
 
