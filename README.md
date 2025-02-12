@@ -139,19 +139,19 @@ CertifySecure is an innovative application designed to provide a secure and tamp
   - **Description:** Initial welcome screen with app branding and user role selection.  
   - **Files:** `splash_screen.dart`, `role_selection_screen.dart`  
   <p align="center">
-    <img src="assets/screenshots/Splash_screen.jpg" alt="Splash Screen" width="400" height="200">
-    <img src="assets/screenshots/role_selection.jpg" alt="Role Selection Screen" width="400" height="200">
+    <img src="assets/screenshots/Splash_screen.jpg" alt="Splash Screen" width="400">
+    <img src="assets/screenshots/role_selection.jpg" alt="Role Selection Screen" width="400">
   </p>
 
 - **🔑 Login Screens (All Roles):**  
   - **Description:** Different login interfaces for students, teachers, and recruiters.  
   - **Files:** `login.dart`, `face_recognition_screen.dart`, `teacher_login.dart`, `company_login.dart`  
   <p align="center">
-    <img src="assets/screenshots/student_login.jpg" alt="Student Login Screen" width="400" height="200">
+    <img src="assets/screenshots/student_login.jpg" alt="Student Login Screen" width="400">
     <img src="assets/screenshots/teacher_login.jpg" alt="Teacher Login Screen" width="400">
     <img src="assets/screenshots/company_login.jpg" alt="Company Login Screen" width="400">
-    <img src="assets/screenshots/face_auth-1.jpg" alt="Face Authentication Step 1" width="400">
-    <img src="assets/screenshots/face_auth-2.jpg" alt="Face Authentication Step 2" width="400">
+    <img src="assets/screenshots/face_auth-1.png" alt="Face Authentication Step 1" width="400">
+    <img src="assets/screenshots/face_auth-2.png" alt="Face Authentication Step 2" width="400">
   </p>
 
 - **🏠 Student Dashboard:**  
