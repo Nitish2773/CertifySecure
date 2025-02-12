@@ -1,9 +1,5 @@
 
 # CertifySecure: Blockchain-Integrated Student Certificate Validation App with Flutter
-
----
-🚀 *CertifySecure ensures a tamper-proof, blockchain-backed certificate verification system with seamless authentication and user management. Start using it today!*
-
 ---
 
 # 📑 **Table of Contents**  
@@ -649,5 +645,4 @@ Certificate Verification | Facial Recognition | Secure Authentication | Blockcha
 
 ---
 
-🚀 **CertifySecure** aims to revolutionize academic certificate validation through **blockchain technology**, **facial recognition**, and **secure cloud storage**! 🎓🔗
 
