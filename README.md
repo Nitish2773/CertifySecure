@@ -3,31 +3,46 @@
 
 ---
 
-📑 **Table of Contents**
+# 📑 **Table of Contents**  
 
-1. Project Overview
-2. VS Code & Android Studio Setup
-3. Frontend: Flutter & Dart Configuration
-4. Android & iOS Setup
-5. Pubspec.yaml Dependencies
-6. Major Screens & UI Implementations
-7. Blockchain & SHA-256 Hashing
-8. Blockchain Technologies
-9. Immutable Data & Blockchain Verification
-10. Firebase Backend Setup
-11. CSV-based User Registration
-12. Firebase Authentication & Storage
-13. Complete App Workflow
-14. Verification Process & Tamper-Proof Certification
-15. Facial Recognition for Student Authentication
-16. User Roles & Permissions
-17. Project Structure Breakdown
-18. Git Cloning & Usage
-19. Deployment Guide
-20. Screenshots & Video Demo
-21. Contact Details
-22. Conference Presentation Details
-23. Future Enhancements
+### 🚀 **Project Setup & Configuration**  
+1️⃣ **[Project Overview](#)**  
+2️⃣ **[VS Code & Android Studio Setup](#)**  
+3️⃣ **[Frontend: Flutter & Dart Configuration](#)**  
+4️⃣ **[Android & iOS Setup](#)**  
+5️⃣ **[Pubspec.yaml Dependencies](#)**  
+
+### 🎨 **UI & User Experience**  
+6️⃣ **[Major Screens & UI Implementations](#)**  
+
+### 🔗 **Blockchain & Security**  
+7️⃣ **[Blockchain & SHA-256 Hashing](#)**  
+8️⃣ **[Blockchain Technologies](#)**  
+9️⃣ **[Immutable Data & Blockchain Verification](#)**  
+
+### 🔥 **Backend & Database**  
+🔟 **[Firebase Backend Setup](#)**  
+1️⃣1️⃣ **[CSV-based User Registration](#)**  
+1️⃣2️⃣ **[Firebase Authentication & Storage](#)**  
+
+### ⚙️ **App Logic & Functionality**  
+1️⃣3️⃣ **[Complete App Workflow](#)**  
+1️⃣4️⃣ **[Verification Process & Tamper-Proof Certification](#)**  
+1️⃣5️⃣ **[Facial Recognition for Student Authentication](#)**  
+1️⃣6️⃣ **[User Roles & Permissions](#)**  
+
+### 📂 **Project Management & Deployment**  
+1️⃣7️⃣ **[Project Structure Breakdown](#)**  
+1️⃣8️⃣ **[Git Cloning & Usage](#)**  
+1️⃣9️⃣ **[Deployment Guide](#)**  
+
+### 📸 **Media & Documentation**  
+2️⃣0️⃣ **[Screenshots & Video Demo](#)**  
+
+### 📞 **Additional Information**  
+2️⃣1️⃣ **[Contact Details](#)**  
+2️⃣2️⃣ **[Conference Presentation Details](#)**  
+2️⃣3️⃣ **[Future Enhancements](#)**  
 
 ---
 
