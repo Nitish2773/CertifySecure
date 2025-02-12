@@ -602,12 +602,14 @@ services:
         <a href="https://drive.google.com/file/d/1G0fa2hgd1Blz7GMigYr9iASvZT-f3mjc/view?usp=sharing">
           <img src="assets/screenshots/app-logo.png" alt="Video Demo" width="200">
         </a>
-        <br>
-        **(Click on the image to watch the full demo video.)**
       </td>
     </tr>
   </table>
 </div>
+
+ <br><br>
+
+  **(Click on the image to watch the full demo video.)**
 
 ---
 
