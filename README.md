@@ -162,10 +162,10 @@ CertifySecure is an innovative application designed to provide a secure and tamp
       </tr>
       <tr>
         <td><img src="assets/screenshots/company_login.jpg" alt="Company Login Screen" width="300" height="500"></td>
-        <td><img src="assets/screenshots/face-auth-1.jpg" alt="Face Authentication Step 1" width="300" height="500"></td>
+        <td><img src="assets\screenshots\face_auth-1.png" alt="Face Authentication Step 1" width="300" height="500"></td>
       </tr>
       <tr>
-        <td><img src="assets/screenshots/face-auth-2.jpg" alt="Face Authentication Step 2" width="300" height="500"></td>
+        <td><img src="assets\screenshots\face-auth-2.png" alt="Face Authentication Step 2" width="300" height="500"></td>
         <td></td>
       </tr>
     </table>
