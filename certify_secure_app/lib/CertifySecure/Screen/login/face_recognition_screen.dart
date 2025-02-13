@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 import 'dart:math' as math;
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:http/http.dart' as http;
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
@@ -170,7 +171,7 @@ class _FaceRecognitionScreenState extends State<FaceRecognitionScreen>
     );
   }
 
-  Future<void> captureAndRecognize() async {
+Future<void> captureAndRecognize() async {
   if (cameraController == null || !cameraController!.value.isInitialized) {
     return;
   }
@@ -181,6 +182,17 @@ class _FaceRecognitionScreenState extends State<FaceRecognitionScreen>
   });
 
   try {
+    // First verify if the user is a student
+    final userDoc = await FirebaseFirestore.instance
+        .collection('users')
+        .where('email', isEqualTo: widget.email)
+        .where('role', isEqualTo: 'student')
+        .get();
+
+    if (userDoc.docs.isEmpty) {
+      throw Exception('Face recognition is only available for students');
+    }
+
     XFile file = await cameraController!.takePicture();
     File imageFile = File(file.path);
 
@@ -204,15 +216,18 @@ class _FaceRecognitionScreenState extends State<FaceRecognitionScreen>
         String? userRole = jsonResponse['role']?.toString();
 
         if (userId != null && userRole != null) {
-          if (widget.email == "nitishkamisetti123@gmail.com") {
+          // Verify if the user is a student from Firebase
+          final userData = userDoc.docs.first.data();
+          
+          if (userData['role'].toString().toLowerCase() == 'student') {
             showCustomSnackBar(
               context: context,
               message: "Face recognized. Login successful!",
             );
-            await Future.delayed(const Duration(seconds: 2)); // Added delay
+            await Future.delayed(const Duration(seconds: 2));
             Navigator.of(context).pop(true);
           } else {
-            throw Exception('Face recognition failed: User mismatch');
+            throw Exception('Face recognition is only available for students');
           }
         } else {
           throw Exception('Invalid user data received from server');
@@ -230,12 +245,12 @@ class _FaceRecognitionScreenState extends State<FaceRecognitionScreen>
       message: 'Error: ${e.toString()}',
       isError: true,
     );
-    await Future.delayed(const Duration(seconds: 2)); // Added delay
-    if (mounted) { // Added mounted check
+    await Future.delayed(const Duration(seconds: 2));
+    if (mounted) {
       Navigator.of(context).pop(false);
     }
   } finally {
-    if (mounted) { // Added mounted check
+    if (mounted) {
       setState(() {
         isProcessing = false;
         loadingMessage = "";
@@ -243,7 +258,6 @@ class _FaceRecognitionScreenState extends State<FaceRecognitionScreen>
     }
   }
 }
-
   @override
   void dispose() {
     try {
