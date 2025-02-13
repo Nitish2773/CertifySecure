@@ -611,7 +611,11 @@ class _CompanyHomeScreenState extends State<CompanyHomeScreen> {
             icon: Icons.verified,
             label: 'Verify New',
             onTap: () {
-              Navigator.pushNamed(context, '/verify-certificate');
+              Navigator.of(context).pushReplacement(
+            MaterialPageRoute(
+              builder: (context) => const VerifyCertificatesScreen(),
+            ),
+          );
             },
           ),
           _buildQuickActionButton(
