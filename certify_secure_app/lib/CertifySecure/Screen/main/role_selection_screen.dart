@@ -53,7 +53,7 @@ class RoleSelectionScreen extends StatelessWidget {
                       ),
                       child: ClipOval(
                         child: Image.asset(
-                          'assets/images/app-logo.png',
+                          'assets/images/app-logo-2.png',
                           width: 60,
                           height: 60,
                           fit: BoxFit.cover,
@@ -157,7 +157,7 @@ class RoleSelectionScreen extends StatelessWidget {
                                   ),
                                   child: ClipOval(
                                     child: Image.asset(
-                                      'assets/images/app-logo.png',
+                                      'assets/images/app-logo-2.png',
                                       width: 24,
                                       height: 24,
                                       fit: BoxFit.cover,
