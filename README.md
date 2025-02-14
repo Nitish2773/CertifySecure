@@ -594,7 +594,7 @@ Deploy using GitHub integration or manual deployment through Render's web dashbo
 
 <div align="center">
   <a href="https://drive.google.com/file/d/1G0fa2hgd1Blz7GMigYr9iASvZT-f3mjc/view?usp=sharing">
-    <img src="assets/screenshots/app-logo.png" alt="Video Demo" width="200">
+    <img src="assets/screenshots/app-logo-2.png" alt="Video Demo" width="200">
   </a>
   
   **(Click the image to watch the full demo video.)**
