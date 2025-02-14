@@ -226,6 +226,9 @@ flutter run
       <td><img src="assets/screenshots/company_home_screen.jpg" width="300"></td>
       <td><img src="assets/screenshots/company_verify_cert_screen.jpg" width="300"></td>
     </tr>
+    <tr>
+          <td><img src="assets/screenshots/company_block-not_verified_screen.jpg" width="300"></td>
+    </tr>
   </table>
 </div>
 
