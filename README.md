@@ -621,6 +621,7 @@ Deploy using GitHub integration or manual deployment through Render's web dashbo
 - **Organizer:** AITAM College
 - **Date:** December 4, 2024
 - **Mode:** Remote Presentation
+- **Certificate:** 📎 [Click Here](https://drive.google.com/file/d/1wjfLMJcodYK7NAS0Rg8w0qX_KXTNdkxS/view?usp=sharing) to access the Certificate.
 
 ### **📄 Abstract:**
 In the education sector, students receive certificates upon completion of their studies. Traditional certificate validation methods require manual verification, which can be tampered with. **CertifySecure** leverages **blockchain technology** to ensure certificates remain **immutable and verifiable**. By integrating **facial recognition authentication**, the project prevents impersonation while enhancing security. The app is developed using **Flutter and Firebase**, with **Ethereum blockchain** storing certificate hashes for tamper-proof verification.
@@ -631,6 +632,7 @@ Certificate Verification | Facial Recognition | Secure Authentication | Blockcha
 ### **📊 Presentation Slides:**
 📎 [Click Here](https://docs.google.com/presentation/d/1m_h0iNQmb39QIWQBq8qdor8nygsJoeC0/edit?usp=sharing&ouid=114377696364244652161&rtpof=true&sd=true) to access the slides.
 
+📎 [Click Here](https://docs.google.com/presentation/d/1Dp3E1cK2XKTBE0il7poBV5V3tGkq3ojU/edit?usp=sharing&ouid=114377696364244652161&rtpof=true&sd=true) to access the slides.
 ---
 
 # **23. Future Enhancements**
