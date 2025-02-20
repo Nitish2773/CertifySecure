@@ -205,13 +205,21 @@ flutter run
 
 ### **📊 Teacher Dashboard**
 - **Description:** Allows teachers to verify certificates and manage pending verifications.
-- **Files:** `teacher_dashboard.dart`, `teacher_home_screen.dart`, `teacher_profile_screen.dart`
+- **Files:** `teacher_dashboard.dart`, `teacher_home_screen.dart`, `teacher_profile_screen.dart`,`pending_certificate_screen.dart`
 
 <div align="center">
   <table>
     <tr>
       <td><img src="assets/screenshots/teacher_home_screen.jpg" width="300"></td>
       <td><img src="assets/screenshots/teacher_home_screen-2.jpg" width="300"></td>
+    </tr>
+     <tr>
+      <td><img src="assets/screenshots/teacher_pending_cert_screen.jpg" width="300"></td>
+      <td><img src="assets/screenshots/teacher_pending_cert_screen-2.jpg" width="300"></td>
+    </tr>
+     <tr>
+      <td><img src="assets/screenshots/teacher_verify_cert_screen.jpg" width="300"></td>
+      <td><img src="assets/screenshots/teacher_verify_cert_screen-2.jpg" width="300"></td>
     </tr>
   </table>
 </div>

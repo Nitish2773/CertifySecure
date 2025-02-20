@@ -198,7 +198,7 @@ Future<void> captureAndRecognize() async {
 
     var request = http.MultipartRequest(
       'POST',
-      Uri.parse('https://face-recognition-app-8dhb.onrender.com/recognize'),
+      Uri.parse('http://192.168.15.84:5000/recognize'),
     );
 
     var multipartFile =
